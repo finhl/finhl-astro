@@ -1,13 +1,12 @@
 ---
-import { getWikiData } from "../lib/wikiClient.js";
-import Layout from "../layouts/Layout.astro";
+import { getWikiData } from "../../lib/wikiClient.js";
+import Layout from "@layouts/Layout.astro.jsx";
 // import Card from '../components/Card.astro';
 
-const dataWithPlayerPositions = await getWikiData();
+const dataWithPlayerPositions = getWikiData();
 const players = dataWithPlayerPositions.filter(
-  (player) => player.position === "h"
+  (player) => player.position === "m" && player.isActive
 );
-const activePlayersCount = players.filter((player) => player.isActive).length;
 function positionPrettyNameByLetter(letter: string) {
   switch (letter) {
     case "h":
@@ -22,7 +21,7 @@ function positionPrettyNameByLetter(letter: string) {
 }
 ---
 
-<Layout title="FINHL - Hyökkääjät">
+<Layout title="FINHL - Aktiiviset maalivahdit">
   <main>
     <svg
       class="astro-a"
@@ -52,12 +51,9 @@ function positionPrettyNameByLetter(letter: string) {
         </linearGradient>
       </defs>
     </svg>
-    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Hyökkääjät</h1>
-
+    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Maalivahdit</h1>
     <p class="lead-text">
-      Yhteensä <b>{players.length}</b> pelaajaa joista <a href="/nykyiset/"
-        ><b>{activePlayersCount}</b> aktiivista</a
-      >.
+      Yhteensä aktiivista <b>{players.length}</b> maalivahtia.
     </p>
 
     <!-- Loop each player -->
@@ -119,15 +115,15 @@ function positionPrettyNameByLetter(letter: string) {
     color: white;
     text-decoration: underline;
   }
-  .playerlink {
-    color: white;
-    text-decoration: underline;
-  }
   .source-info {
     font-size: 0.8rem;
     margin-top: 2rem;
   }
   .source-info a {
+    color: white;
+    text-decoration: underline;
+  }
+  .playerlink {
     color: white;
     text-decoration: underline;
   }

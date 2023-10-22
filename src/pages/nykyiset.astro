@@ -1,9 +1,9 @@
 ---
 import { getWikiData } from "../lib/wikiClient.js";
-import Layout from "../layouts/Layout.astro";
+import Layout from "@layouts/Layout.astro.jsx";
 // import Card from '../components/Card.astro';
 
-const dataWithPlayerPositions = await getWikiData();
+const dataWithPlayerPositions = getWikiData();
 const players = dataWithPlayerPositions.filter((player) => player.isActive);
 const goaliesCount = players.filter((player) => player.position === "m").length;
 const forwardsCount = players.filter(
@@ -56,7 +56,7 @@ function positionPrettyNameByLetter(letter: string) {
         </linearGradient>
       </defs>
     </svg>
-    <h1><span class="text-gradient">FINHL</span> - Aktiiviset</h1>
+    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Aktiiviset</h1>
 
     <p class="lead-text">Yhteensä <b>{players.length}</b> pelaajaa.</p>
     <p class="lead-text">

@@ -1,17 +1,13 @@
 ---
-import { getWikiData } from "../lib/wikiClient.js";
-import Layout from "@layouts/Layout.astro.jsx";
+import { getWikiData } from "../../lib/wikiClient.js";
+import Layout3 from "@layouts/Layout.astro.jsx";
 // import Card from '../components/Card.astro';
 
-const players = getWikiData();
+const dataWithPlayerPositions = getWikiData();
+const players = dataWithPlayerPositions.filter(
+  (player) => player.position === "m"
+);
 const activePlayersCount = players.filter((player) => player.isActive).length;
-const goaliesCount = players.filter((player) => player.position === "m").length;
-const forwardsCount = players.filter(
-  (player) => player.position === "h"
-).length;
-const defendersCount = players.filter(
-  (player) => player.position === "p"
-).length;
 function positionPrettyNameByLetter(letter: string) {
   switch (letter) {
     case "h":
@@ -26,7 +22,7 @@ function positionPrettyNameByLetter(letter: string) {
 }
 ---
 
-<Layout title="FINHL - Suomalaiset NHL:ssä">
+<Layout3 title="FINHL - Maalivahdit">
   <main>
     <svg
       class="astro-a"
@@ -56,20 +52,11 @@ function positionPrettyNameByLetter(letter: string) {
         </linearGradient>
       </defs>
     </svg>
-    <h1>
-      <span class="text-gradient">FINHL</span><br>Suomalaiset NHL:ssä kautta
-      aikain
-    </h1>
-
+    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Maalivahdit</h1>
     <p class="lead-text">
-      Yhteensä <b>{players.length}</b> pelaajaa joista <a href="/nykyiset/"
+      Yhteensä <b>{players.length}</b> maalivahtia joista <a href="aktiiviset"
         ><b>{activePlayersCount}</b> aktiivista</a
       >.
-    </p>
-    <p class="lead-text">
-      <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a
-        href="/puolustajat/"><b>{defendersCount}</b> puolustajaa</a
-      > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää</a>
     </p>
 
     <!-- Loop each player -->
@@ -111,7 +98,7 @@ function positionPrettyNameByLetter(letter: string) {
       </a>.<br />Päivitetty {new Date().toLocaleDateString("fi-FI")}.
     </p>
   </main>
-</Layout>
+</Layout3>
 
 <style>
   main {
@@ -131,15 +118,15 @@ function positionPrettyNameByLetter(letter: string) {
     color: white;
     text-decoration: underline;
   }
-  .playerlink {
-    color: white;
-    text-decoration: underline;
-  }
   .source-info {
     font-size: 0.8rem;
     margin-top: 2rem;
   }
   .source-info a {
+    color: white;
+    text-decoration: underline;
+  }
+  .playerlink {
     color: white;
     text-decoration: underline;
   }

@@ -1,9 +1,9 @@
 ---
-import { getWikiData } from "../lib/wikiClient.js";
-import Layout from "../layouts/Layout.astro";
+import { getWikiData } from "../../lib/wikiClient.js";
+import Layout from "@layouts/Layout.astro.jsx";
 // import Card from '../components/Card.astro';
 
-const dataWithPlayerPositions = await getWikiData();
+const dataWithPlayerPositions = getWikiData();
 const players = dataWithPlayerPositions.filter(
   (player) => player.position === "p"
 );
@@ -52,9 +52,9 @@ function positionPrettyNameByLetter(letter: string) {
         </linearGradient>
       </defs>
     </svg>
-    <h1><span class="text-gradient">FINHL</span> - Puolustajat</h1>
+    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Puolustajat</h1>
     <p class="lead-text">
-      Yhteensä <b>{players.length}</b> pelaajaa joista <a href="/nykyiset/"
+      Yhteensä <b>{players.length}</b> puolustajja joista <a href="aktiiviset"
         ><b>{activePlayersCount}</b> aktiivista</a
       >.
     </p>

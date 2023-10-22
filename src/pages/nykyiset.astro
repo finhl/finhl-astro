@@ -1,6 +1,6 @@
 ---
 import { getWikiData } from "../lib/wikiClient.js";
-import Layout from "@layouts/Layout4.astro";
+import Layout from "@layouts/Layout.astro";
 // import Card from '../components/Card.astro';
 
 const dataWithPlayerPositions = getWikiData();
@@ -26,7 +26,7 @@ function positionPrettyNameByLetter(letter: string) {
 }
 ---
 
-<Layout title="FINHL - Aktiiviset">
+<Layout title="FINHL - Nykyiset pelaajat">
   <main>
     <svg
       class="astro-a"
@@ -58,11 +58,11 @@ function positionPrettyNameByLetter(letter: string) {
     </svg>
     <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Aktiiviset</h1>
 
-    <p class="lead-text">Yhteensä <b>{players.length}</b> pelaajaa.</p>
+    <p class="lead-text">Yhteensä <b>{players.length}</b> aktiivista pelaajaa.</p>
     <p class="lead-text">
-      <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a
-        href="/puolustajat/"><b>{defendersCount}</b> puolustajaa</a
-      > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää</a>
+      <a href="/maalivahdit/aktiiviset"><b>{goaliesCount}</b> maalivahtia</a>, <a
+        href="/puolustajat/aktiiviset"><b>{defendersCount}</b> puolustajaa</a
+      > ja <a href="/hyokkaajat/aktiiviset"><b>{forwardsCount}</b> hyökkääjää</a>
     </p>
 
     <!-- Loop each player -->

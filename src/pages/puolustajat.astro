@@ -3,15 +3,11 @@ import { getWikiData } from "../lib/wikiClient.js";
 import Layout from "../layouts/Layout.astro";
 // import Card from '../components/Card.astro';
 
-const players = await getWikiData();
-const activePlayersCount = players.filter((player) => player.isActive).length;
-const goaliesCount = players.filter((player) => player.position === "m").length;
-const forwardsCount = players.filter(
-  (player) => player.position === "h"
-).length;
-const defendersCount = players.filter(
+const dataWithPlayerPositions = await getWikiData();
+const players = dataWithPlayerPositions.filter(
   (player) => player.position === "p"
-).length;
+);
+const activePlayersCount = players.filter((player) => player.isActive).length;
 function positionPrettyNameByLetter(letter: string) {
   switch (letter) {
     case "h":
@@ -26,7 +22,7 @@ function positionPrettyNameByLetter(letter: string) {
 }
 ---
 
-<Layout title="FINHL - Suomalaiset NHL:ssä">
+<Layout title="FINHL - Puolustajat">
   <main>
     <svg
       class="astro-a"
@@ -56,20 +52,11 @@ function positionPrettyNameByLetter(letter: string) {
         </linearGradient>
       </defs>
     </svg>
-    <h1>
-      <span class="text-gradient">FINHL</span><br>Suomalaiset NHL:ssä kautta
-      aikain
-    </h1>
-
+    <h1><span class="text-gradient">FINHL</span> - Puolustajat</h1>
     <p class="lead-text">
       Yhteensä <b>{players.length}</b> pelaajaa joista <a href="/nykyiset/"
         ><b>{activePlayersCount}</b> aktiivista</a
       >.
-    </p>
-    <p class="lead-text">
-      <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a
-        href="/puolustajat/"><b>{defendersCount}</b> puolustajaa</a
-      > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää</a>
     </p>
 
     <!-- Loop each player -->

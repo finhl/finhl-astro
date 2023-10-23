@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Finhl: astro
 
 ```sh
 npm create astro@latest -- --template basics

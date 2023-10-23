@@ -12,11 +12,11 @@ const PlayerRow = ({player}: Props) => {
         <tr>
             <td className='align-top py-5'>
                 {/* Add <b> tag if player.isActive */}
-                {player.isActive ? <b><a className="underline" href={player.wikiLink}>{player.name}</a></b> : <a className="underline" href={player.wikiLink}>{player.name}</a>}
+                {player.isActive ? <b><a className="underline" href={`https://fi.wikipedia.org/${player.wikiLink}`}>{player.name}</a></b> : <a className="underline" href={`https://fi.wikipedia.org/${player.wikiLink}`}>{player.name}</a>}
             </td>
-            <td className='align-top pl-5 py-5'>{player.yearOfBirth}</td>
-            <td className='align-top pl-5 py-5'>{player.position}</td>
-            <td className='align-top pl-5 py-5'>
+            <td className='align-top pl-1 md:pl-5 py-5'>{player.yearOfBirth}</td>
+            <td className='align-top pl-1 md:pl-5 py-5'>{player.position}</td>
+            <td className='align-top pl-1 md:pl-5 py-5'>
                 {player.teams.map(team => {
                     return (
                         <div key={team.name}>

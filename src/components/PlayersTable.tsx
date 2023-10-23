@@ -28,13 +28,14 @@ const PlayersTable = ({players}: Props) => {
         return <p>Ei pelaajia</p>;
     }
     return (
+        <div className='overflow-x-auto'>
         <table className="min-w-full table-auto divide-y divide-gray-200 dark:divide-gray-700">
         <thead>
             <tr>
             <th className="text-left">Nimi</th>
-            <th className="text-left pl-1">S.</th>
-            <th className="text-left pl-1">Pp</th>
-            <th className="text-left pl-1">Seura(t)</th>
+            <th className="text-left pl-1 md:pl-5">S.</th>
+            <th className="text-left pl-1 md:pl-5">Pp</th>
+            <th className="text-left pl-1 md:pl-5">Seura(t)</th>
             </tr>
         </thead>
         {/* <tbody className='divide-y divide-gray-200 dark:divide-gray-700'> */}
@@ -42,6 +43,7 @@ const PlayersTable = ({players}: Props) => {
             {players.map(player => <PlayerRow player={player} key={player.name} />)}
         </tbody>
         </table>
+        </div>
     );
 }
 

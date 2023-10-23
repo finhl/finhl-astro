@@ -1,6 +1,6 @@
 ---
 import { getWikiData } from "../lib/wikiClient.js";
-import Layout2 from "@layouts/Layout2.astro";
+import Layout from "@layouts/Layout.astro";
 import PlayersTable from "@components/PlayersTable";
 // import Card from '../components/Card.astro';
 
@@ -15,7 +15,7 @@ const defendersCount = players.filter(
 ).length;
 ---
 
-<Layout2 title="FINHL - Suomalaiset NHL:ssä">
+<Layout title="FINHL - Suomalaiset NHL:ssä">
   <main>
     <svg
       class="astro-a"
@@ -70,7 +70,7 @@ const defendersCount = players.filter(
       </a>.<br />Päivitetty {new Date().toLocaleDateString("fi-FI")}.
     </p>
   </main>
-</Layout2>
+</Layout>
 
 <style>
   main {

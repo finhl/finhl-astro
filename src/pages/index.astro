@@ -1,6 +1,7 @@
 ---
 import { getWikiData } from "../lib/wikiClient.js";
 import Layout from "@layouts/Layout.astro";
+import PlayersTable from "@components/PlayersTable";
 // import Card from '../components/Card.astro';
 
 const players = getWikiData();
@@ -72,38 +73,8 @@ function positionPrettyNameByLetter(letter: string) {
       > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää</a>
     </p>
 
-    <!-- Loop each player -->
-    <ul>
-      {
-        players.map((player) => (
-          <>
-            <li>
-              <a
-                class="playerlink"
-                href={"https://fi.wikipedia.org" + player.wikiLink}
-              >
-                {player.name}
-              </a>
-            </li>
-            <ul>
-              <li>Aktiivinen: {player.isActive ? "Kyllä" : "Ei"}</li>
-              <li>Pelipaikka: {positionPrettyNameByLetter(player.position)}</li>
-              <li>Syntymävuosi: {player.yearOfBirth}</li>
-              <li>
-                Joukkueet:{" "}
-                <ul>
-                  {player.teams.map((team: any) => (
-                    <li>
-                      {team.name}: {team.years.join(", ")}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            </ul>
-          </>
-        ))
-      }
-    </ul>
+    <PlayersTable players={players} />
+
     <p class="source-info">
       Lähde: <a
         href="https://fi.wikipedia.org/wiki/Luettelo_NHL:ss%C3%A4_pelanneista_suomalaisista"

@@ -1,6 +1,6 @@
 ---
 import { getWikiData } from "../../lib/wikiClient.js";
-import Layout from "@layouts/Layout1.astro";
+import Layout2 from "@layouts/Layout2.astro";
 // import Card from '../components/Card.astro';
 
 const dataWithPlayerPositions = getWikiData();
@@ -22,7 +22,7 @@ function positionPrettyNameByLetter(letter: string) {
 }
 ---
 
-<Layout title="FINHL - Puolustajat">
+<Layout2 title="FINHL - Puolustajat">
   <main>
     <svg
       class="astro-a"
@@ -100,7 +100,7 @@ function positionPrettyNameByLetter(letter: string) {
       </a>.<br />Päivitetty {new Date().toLocaleDateString("fi-FI")}.
     </p>
   </main>
-</Layout>
+</Layout2>
 
 <style>
   main {

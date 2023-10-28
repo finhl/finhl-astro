@@ -7,7 +7,7 @@ const allPlayers = getEnrichedData();
 const players = allPlayers.filter((player) => player.position === "G");
 ---
 
-<Layout title="FINHL - Maalivahdit">
+<Layout title="FINHL - Suomalaiset NHL:ssä">
   <main>
     <svg
       class="astro-a"
@@ -37,7 +37,10 @@ const players = allPlayers.filter((player) => player.position === "G");
         </linearGradient>
       </defs>
     </svg>
-    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Maalivahdit</h1>
+    <h1>
+      <span class="text-gradient">FINHL</span><br />Suomalaiset NHL:ssä kautta
+      aikain
+    </h1>
 
     <div class="mb-12">
       <p class="lead-text">

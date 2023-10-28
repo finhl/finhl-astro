@@ -66,8 +66,8 @@ const PlayersListingAdvanced = ({ players }: Props) => {
                 onClick={toggleShowOnlyCurrentTeam}
               >
                 {showOnlyCurrentTeam
-                  ? "Kaikki joukkeet"
-                  : "Vain nykyinen joukkue"}
+                  ? "Kaikki seurat"
+                  : "Vain nykyinen seura"}
               </button>
             </div>
           )}

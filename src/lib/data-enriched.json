@@ -406,10 +406,6 @@
             {
                 "season": "2015-16",
                 "team": "Calgary Flames"
-            },
-            {
-                "season": "2023-24",
-                "team": "Columbus Blue Jackets"
             }
         ],
         "seasonsAndTeamsGrouped": [
@@ -420,10 +416,6 @@
             {
                 "team": "Calgary Flames",
                 "seasons": "2015-16"
-            },
-            {
-                "team": "Columbus Blue Jackets",
-                "seasons": "2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -434,16 +426,12 @@
             {
                 "team": "Calgary Flames",
                 "seasons": "2015"
-            },
-            {
-                "team": "Columbus Blue Jackets",
-                "seasons": "2023-"
             }
         ],
-        "numberOfTeams": 3,
-        "numberOfSeasons": 11,
+        "numberOfTeams": 2,
+        "numberOfSeasons": 10,
         "firstSeason": "2006-07",
-        "latestSeason": "2023-24",
+        "latestSeason": "2015-16",
         "firstName": "Niklas",
         "lastName": "Bäckström"
     },
@@ -1406,7 +1394,7 @@
             },
             {
                 "season": "2023-24",
-                "team": "San Jose Sharks*"
+                "team": "San Jose Sharks"
             }
         ],
         "seasonsAndTeamsGrouped": [
@@ -1423,7 +1411,7 @@
                 "seasons": "2022-23"
             },
             {
-                "team": "San Jose Sharks*",
+                "team": "San Jose Sharks",
                 "seasons": "2023-24"
             }
         ],
@@ -1441,7 +1429,7 @@
                 "seasons": "2022"
             },
             {
-                "team": "San Jose Sharks*",
+                "team": "San Jose Sharks",
                 "seasons": "2023-"
             }
         ],
@@ -2231,30 +2219,22 @@
             },
             {
                 "season": "2023-24",
-                "team": "Winnipeg Jets*"
+                "team": "Winnipeg Jets"
             }
         ],
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
-                "seasons": "2019-23"
-            },
-            {
-                "team": "Winnipeg Jets*",
-                "seasons": "2023-24"
+                "seasons": "2019-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Winnipeg Jets",
-                "seasons": "2019-2022"
-            },
-            {
-                "team": "Winnipeg Jets*",
-                "seasons": "2023-"
+                "seasons": "2019-"
             }
         ],
-        "numberOfTeams": 2,
+        "numberOfTeams": 1,
         "numberOfSeasons": 5,
         "firstSeason": "2019-20",
         "latestSeason": "2023-24",
@@ -5957,7 +5937,7 @@
             },
             {
                 "season": "2023-24",
-                "team": "Columbus Blue Jackets*"
+                "team": "Columbus Blue Jackets"
             }
         ],
         "seasonsAndTeamsGrouped": [
@@ -5967,11 +5947,7 @@
             },
             {
                 "team": "Columbus Blue Jackets",
-                "seasons": "2020-23"
-            },
-            {
-                "team": "Columbus Blue Jackets*",
-                "seasons": "2023-24"
+                "seasons": "2020-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -5981,14 +5957,10 @@
             },
             {
                 "team": "Columbus Blue Jackets",
-                "seasons": "2020-2022"
-            },
-            {
-                "team": "Columbus Blue Jackets*",
-                "seasons": "2023-"
+                "seasons": "2020-"
             }
         ],
-        "numberOfTeams": 3,
+        "numberOfTeams": 2,
         "numberOfSeasons": 8,
         "firstSeason": "2016-17",
         "latestSeason": "2023-24",
@@ -7304,7 +7276,7 @@
         "name": "Pentti Lund",
         "wikiLink": "/wiki/Pentti_Lund",
         "link": "/ihdb/stats/pdisplay.php?pid=3239",
-        "position": "",
+        "position": "F",
         "birthDate": "1925-12-06",
         "seasonsAndTeams": [
             {
@@ -11278,7 +11250,7 @@
             },
             {
                 "season": "2023-24",
-                "team": "Philadelphia Flyers*"
+                "team": "Philadelphia Flyers"
             }
         ],
         "seasonsAndTeamsGrouped": [
@@ -11288,11 +11260,7 @@
             },
             {
                 "team": "Philadelphia Flyers",
-                "seasons": "2021-23"
-            },
-            {
-                "team": "Philadelphia Flyers*",
-                "seasons": "2023-24"
+                "seasons": "2021-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -11302,14 +11270,10 @@
             },
             {
                 "team": "Philadelphia Flyers",
-                "seasons": "2021-2022"
-            },
-            {
-                "team": "Philadelphia Flyers*",
-                "seasons": "2023-"
+                "seasons": "2021-"
             }
         ],
-        "numberOfTeams": 3,
+        "numberOfTeams": 2,
         "numberOfSeasons": 11,
         "firstSeason": "2013-14",
         "latestSeason": "2023-24",
@@ -11733,18 +11697,6 @@
             {
                 "season": "2015-16",
                 "team": "New Jersey Devils"
-            },
-            {
-                "season": "2021-22",
-                "team": "Florida Panthers"
-            },
-            {
-                "season": "2022-23",
-                "team": "Florida Panthers"
-            },
-            {
-                "season": "2023-24",
-                "team": "Florida Panthers"
             }
         ],
         "seasonsAndTeamsGrouped": [
@@ -11759,10 +11711,6 @@
             {
                 "team": "New Jersey Devils",
                 "seasons": "2013-16"
-            },
-            {
-                "team": "Florida Panthers",
-                "seasons": "2021-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -11777,16 +11725,12 @@
             {
                 "team": "New Jersey Devils",
                 "seasons": "2013-2015"
-            },
-            {
-                "team": "Florida Panthers",
-                "seasons": "2021-"
             }
         ],
-        "numberOfTeams": 4,
-        "numberOfSeasons": 15,
+        "numberOfTeams": 3,
+        "numberOfSeasons": 12,
         "firstSeason": "2003-04",
-        "latestSeason": "2023-24",
+        "latestSeason": "2015-16",
         "firstName": "Tuomo",
         "lastName": "Ruutu"
     },

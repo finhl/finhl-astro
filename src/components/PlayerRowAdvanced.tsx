@@ -33,7 +33,7 @@ const PlayerRowAdvanced = ({player, onlyShowCurrentTeam = false}: Props) => {
             <td className='align-top pl-1 md:pl-5 py-5'>{positionMap(player.position)}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>{player.numberOfTeams}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>{player.numberOfSeasons}</td>
-            <td className='align-top pl-1 md:pl-5 py-5'>{player.firstSeason}</td>
+            <td className='align-top pl-1 md:pl-5 py-5'>{player.firstSeason.slice(0,4)}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>
                 {player.seasonsAndTeamsGroupedAlt.map(teamAndSeasons => {
                     const { team, seasons } = teamAndSeasons;

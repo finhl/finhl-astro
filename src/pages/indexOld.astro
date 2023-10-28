@@ -1,17 +1,17 @@
 ---
-import { getEnrichedData } from "../lib/wikiClient.js";
+import { getWikiData } from "../lib/wikiClient.js";
 import Layout from "../layouts/Layout.astro";
-import PlayersListingAdvanced from "../components/PlayersListingAdvanced.tsx";
+import PlayersListing from "../components/PlayersListing.tsx";
 // import Card from '../components/Card.astro';
 
-const players = getEnrichedData();
+const players = getWikiData();
 const activePlayersCount = players.filter((player) => player.isActive).length;
-const goaliesCount = players.filter((player) => player.position === "G").length;
+const goaliesCount = players.filter((player) => player.position === "m").length;
 const forwardsCount = players.filter(
-  (player) => player.position === "F"
+  (player) => player.position === "h"
 ).length;
 const defendersCount = players.filter(
-  (player) => player.position === "D"
+  (player) => player.position === "p"
 ).length;
 ---
 
@@ -46,27 +46,29 @@ const defendersCount = players.filter(
       </defs>
     </svg>
     <h1>
-      <span class="text-gradient">FINHL</span><br />Suomalaiset NHL:ssä kautta
+      <span class="text-gradient">FINHL</span><br>Suomalaiset NHL:ssä kautta
       aikain
     </h1>
 
     <div class="mb-12">
-      <p class="lead-text">
-        NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa.
-      </p>
-      <p class="lead-text">
-        <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a
-          href="/puolustajat/"><b>{defendersCount}</b> puolustajaa</a
-        > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää.</a>
-      </p>
-      <p class="lead-text">
-        Pelaajista <a href="/nykyiset/"
-          ><b>{activePlayersCount}</b> on tällä hetkellä aktiivisia.</a
-        >
-      </p>
-    </div>
+    <p class="lead-text">
+      NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa.
+    </p>
+    <p class="lead-text">
+      <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a
+        href="/puolustajat/"><b>{defendersCount}</b> puolustajaa</a
+      > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää.</a>
+    </p>
+    <p class="lead-text">
+      Pelaajista <a href="/nykyiset/"
+        ><b>{activePlayersCount}</b> on tällä hetkellä aktiivisia.</a
+      >
+    </p>
+  </div>
 
-    <PlayersListingAdvanced players={players} client:load />
+    <PlayersListing players={players} client:load />
+
+
 
     <p class="source-info">
       Lähde: <a

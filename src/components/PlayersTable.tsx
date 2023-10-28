@@ -21,9 +21,10 @@ export type Player = {
 
 type Props = {
     players: Array<Player>
+    showOnlyCurrentTeam?: boolean
 };
 
-const PlayersTable = ({players}: Props) => {
+const PlayersTable = ({players, showOnlyCurrentTeam = false}: Props) => {
     if (players.length === 0) {
         return <p>Ei pelaajia</p>;
     }
@@ -38,9 +39,8 @@ const PlayersTable = ({players}: Props) => {
             <th className="text-left pl-1 md:pl-5">Seura(t)</th>
             </tr>
         </thead>
-        {/* <tbody className='divide-y divide-gray-200 dark:divide-gray-700'> */}
         <tbody className='divide-y divide-gray-200 dark:divide-gray-700'>
-            {players.map(player => <PlayerRow player={player} key={player.name} />)}
+            {players.map(player => <PlayerRow player={player} onlyShowCurrentTeam={showOnlyCurrentTeam} key={player.wikiLink} />)}
         </tbody>
         </table>
         </div>

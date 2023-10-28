@@ -1,7 +1,7 @@
 ---
 import { getWikiData } from "../lib/wikiClient.js";
 import Layout from "../layouts/Layout.astro";
-import PlayersTable from "../components/PlayersTable";
+import PlayersListing from "../components/PlayersListing.tsx";
 // import Card from '../components/Card.astro';
 
 const players = getWikiData();
@@ -50,18 +50,25 @@ const defendersCount = players.filter(
       aikain
     </h1>
 
+    <div class="mb-12">
     <p class="lead-text">
-      Yhteensä <b>{players.length}</b> pelaajaa joista <a href="/nykyiset/"
-        ><b>{activePlayersCount}</b> aktiivista</a
-      >.
+      NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa.
     </p>
     <p class="lead-text">
       <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a
         href="/puolustajat/"><b>{defendersCount}</b> puolustajaa</a
-      > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää</a>
+      > ja <a href="/hyokkaajat/"><b>{forwardsCount}</b> hyökkääjää.</a>
     </p>
+    <p class="lead-text">
+      Pelaajista <a href="/nykyiset/"
+        ><b>{activePlayersCount}</b> on tällä hetkellä aktiivisia.</a
+      >
+    </p>
+  </div>
 
-    <PlayersTable players={players} />
+    <PlayersListing players={players} client:load />
+
+
 
     <p class="source-info">
       Lähde: <a

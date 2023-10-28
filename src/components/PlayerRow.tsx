@@ -5,9 +5,10 @@ import type { Player } from './PlayersTable.tsx';
 
 type Props = {
     player: Player
+    onlyShowCurrentTeam?: boolean
 };
 
-const PlayerRow = ({player}: Props) => {
+const PlayerRow = ({player, onlyShowCurrentTeam = false}: Props) => {
     return (
         <tr>
             <td className='align-top py-5'>
@@ -18,8 +19,13 @@ const PlayerRow = ({player}: Props) => {
             <td className='align-top pl-1 md:pl-5 py-5'>{player.position}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>
                 {player.teams.map(team => {
+                    // If onlyShowCurrentTeam is true, only show the current team
+                    if (onlyShowCurrentTeam && !team.isCurrent) {
+                        return null;
+                    }
+
                     return (
-                        <div key={team.name}>
+                        <div key={team.name + team.years.join('-')}>
                             {/* Add <b> tag if current */}
                             {team.isCurrent ? <b>{team.name} {team.years.join(', ')}</b> : <>{team.name} {team.years.join(', ')}</>}
                         </div>

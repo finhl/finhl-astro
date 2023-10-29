@@ -1,28 +1,14 @@
 ---
-import { getWikiData } from "../../lib/wikiClient.js";
-import Layout from "../../layouts/Layout.astro";
-// import Card from '../components/Card.astro';
+import { getPlayersByTeams } from "../lib/wikiClient.js";
+import Layout from "../layouts/Layout.astro";
+import TeamsListing from "../components/TeamsListing.tsx";
 
-const dataWithPlayerPositions = getWikiData();
-const players = dataWithPlayerPositions.filter(
-  (player) => player.position === "m"
-);
-const activePlayersCount = players.filter((player) => player.isActive).length;
-function positionPrettyNameByLetter(letter: string) {
-  switch (letter) {
-    case "h":
-      return "Hyökkääjä";
-    case "p":
-      return "Puolustaja";
-    case "m":
-      return "Maalivahti";
-    default:
-      return "Ei tiedossa";
-  }
-}
+const TITLE_TAG = "Seurat";
+
+const teams = getPlayersByTeams();
 ---
 
-<Layout title="FINHL - Maalivahdit">
+<Layout title={`FINHL - ${TITLE_TAG}`}>
   <main>
     <svg
       class="astro-a"
@@ -52,45 +38,16 @@ function positionPrettyNameByLetter(letter: string) {
         </linearGradient>
       </defs>
     </svg>
-    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - Maalivahdit</h1>
-    <p class="lead-text">
-      Yhteensä <b>{players.length}</b> maalivahtia joista <a href="aktiiviset"
-        ><b>{activePlayersCount}</b> aktiivista</a
-      >.
-    </p>
+    <h1><span class="text-gradient"><a href="/">FINHL</a></span> - {TITLE_TAG}</h1>
 
-    <!-- Loop each player -->
-    <ul>
-      {
-        players.map((player) => (
-          <>
-            <li>
-              <a
-                class="playerlink"
-                href={"https://fi.wikipedia.org" + player.wikiLink}
-              >
-                {player.name}
-              </a>
-            </li>
-            <ul>
-              <li>Aktiivinen: {player.isActive ? "Kyllä" : "Ei"}</li>
-              <li>Pelipaikka: {positionPrettyNameByLetter(player.position)}</li>
-              <li>Syntymävuosi: {player.yearOfBirth}</li>
-              <li>
-                Joukkueet:{" "}
-                <ul>
-                  {player.teams.map((team: any) => (
-                    <li>
-                      {team.name}: {team.years.join(", ")}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            </ul>
-          </>
-        ))
-      }
-    </ul>
+    <div class="mb-12">
+      <p class="lead-text">
+        NHL:ssä on pelannut suomalaisia <b>{teams.length}</b> eri seurassa.
+      </p>
+    </div>
+
+    <TeamsListing teams={teams} client:load />
+
     <p class="source-info">
       Lähde: <a
         href="https://fi.wikipedia.org/wiki/Luettelo_NHL:ss%C3%A4_pelanneista_suomalaisista"
@@ -107,8 +64,8 @@ function positionPrettyNameByLetter(letter: string) {
     width: 800px;
     max-width: calc(100% - 2rem);
     color: white;
-    font-size: 20px;
-    line-height: 1.6;
+    /* font-size: 20px; */
+    /* line-height: 1.6; */
   }
   .lead-text {
     font-size: 1.2rem;
@@ -118,15 +75,15 @@ function positionPrettyNameByLetter(letter: string) {
     color: white;
     text-decoration: underline;
   }
+  .playerlink {
+    color: white;
+    text-decoration: underline;
+  }
   .source-info {
     font-size: 0.8rem;
     margin-top: 2rem;
   }
   .source-info a {
-    color: white;
-    text-decoration: underline;
-  }
-  .playerlink {
     color: white;
     text-decoration: underline;
   }

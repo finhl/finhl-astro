@@ -90,7 +90,7 @@ const PlayersTableAdvanced = ({players, showOnlyCurrentTeam = false}: Props) => 
     }
     return (
         <div className='overflow-x-auto'>
-            <p className="mb-6 text-sm">PP = pelipaikka, J = edustetut joukkueet, K = kausien lukumäärä, 1.K = ensimmäinen kausi</p>
+            <p className="mb-6 text-sm">PP = pelipaikka, S = edustetut seurat, K = kausien lukumäärä, 1.K = ensimmäinen kausi</p>
         <table className="mb-6 min-w-full table-auto divide-y divide-gray-200 dark:divide-gray-700">
         <thead>
             <tr>
@@ -104,7 +104,7 @@ const PlayersTableAdvanced = ({players, showOnlyCurrentTeam = false}: Props) => 
                 <button className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" onClick={() => setSorting('position')}>Pp</button>
             </th>
             <th className="text-left pl-1 md:pl-5">
-                <button className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" onClick={() => setSorting('teams')}>J</button>
+                <button className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" onClick={() => setSorting('teams')}>S</button>
             </th>
             <th className="text-left pl-1 md:pl-5">
                 <button className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" onClick={() => setSorting('seasons')}>K</button>

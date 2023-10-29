@@ -2,9 +2,15 @@
 import { getEnrichedData } from "../lib/wikiClient.js";
 import Layout from "../layouts/Layout.astro";
 import PlayersListingAdvanced from "../components/PlayersListingAdvanced.tsx";
-// import Card from '../components/Card.astro';
 
 const players = getEnrichedData();
+const uniqueTeams = new Set();
+players.forEach((player) => {
+  player.seasonsAndTeams.forEach((seasonAndTeam) => {
+    uniqueTeams.add(seasonAndTeam.team);
+  });
+});
+const uniqueTeamsCount = uniqueTeams.size;
 const activePlayersCount = players.filter((player) => player.isActive).length;
 const goaliesCount = players.filter((player) => player.position === "G").length;
 const forwardsCount = players.filter(
@@ -52,7 +58,7 @@ const defendersCount = players.filter(
 
     <div class="mb-12">
       <p class="lead-text">
-        NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa.
+        NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa. <a href="/seurat/">{uniqueTeamsCount} eri seurassa</a>.
       </p>
       <p class="lead-text">
         <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a

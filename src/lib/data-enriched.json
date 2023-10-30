@@ -9378,14 +9378,6 @@
             {
                 "season": "2008-09",
                 "team": "Buffalo Sabres"
-            },
-            {
-                "season": "2012-13",
-                "team": "Buffalo Sabres"
-            },
-            {
-                "season": "2013-14",
-                "team": "Buffalo Sabres"
             }
         ],
         "seasonsAndTeamsGrouped": [
@@ -9403,7 +9395,7 @@
             },
             {
                 "team": "Buffalo Sabres",
-                "seasons": "2005-09, 2012-14"
+                "seasons": "2005-09"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -9421,13 +9413,13 @@
             },
             {
                 "team": "Buffalo Sabres",
-                "seasons": "2005-2013"
+                "seasons": "2005-2008"
             }
         ],
         "numberOfTeams": 4,
-        "numberOfSeasons": 22,
+        "numberOfSeasons": 20,
         "firstSeason": "1988-89",
-        "latestSeason": "2013-14",
+        "latestSeason": "2008-09",
         "firstName": "Teppo",
         "lastName": "Numminen"
     },

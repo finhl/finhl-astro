@@ -25,10 +25,9 @@ export type Player = {
 
 type Props = {
     teams: Array<Team>
-    showOnlyCurrentTeam?: boolean
 };
 
-const TeamsTable = ({teams, showOnlyCurrentTeam = false}: Props) => {
+const TeamsTable = ({teams}: Props) => {
     const [sortBy, setSortBy] = useState('team');
     const [sortAsc, setSortAsc] = useState(true);
 
@@ -82,7 +81,7 @@ const TeamsTable = ({teams, showOnlyCurrentTeam = false}: Props) => {
     }
     return (
         <div className='overflow-x-auto'>
-            <p className="mb-6 text-sm">PE = pelaajat, MV = maalivahdit, HY = hyökkääjät, PU = puolustajat, KA = kaudet</p>
+            <p className="mb-6 text-sm">PE = pelaajat, MV = maalivahdit, HY = hyökkääjät, PU = puolustajat, KA = kaudet jolloin seurassa on ollut suomalaisia</p>
         <table className="mb-6 min-w-full table-auto divide-y divide-gray-200 dark:divide-gray-700">
         <thead>
             <tr>
@@ -107,7 +106,7 @@ const TeamsTable = ({teams, showOnlyCurrentTeam = false}: Props) => {
             </tr>
         </thead>
         <tbody className='divide-y divide-gray-200 dark:divide-gray-700'>
-            {sortedTeams.map(team => <TeamRow team={team} onlyShowCurrentTeam={showOnlyCurrentTeam} key={team.team} />)}
+            {sortedTeams.map(team => <TeamRow team={team} key={team.team} />)}
         </tbody>
         </table>
         </div>

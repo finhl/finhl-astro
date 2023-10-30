@@ -9,7 +9,7 @@ type Props = {
 
 const TeamsListing = ({ teams }: Props) => {
   const [showOnlyActive, setShowOnlyActive] = useState(false);
-  const teamsToShow = showOnlyActive
+  const teamsPerActivitySetting = showOnlyActive
     ? teams.filter((team) => {
         // Return true if any of the players have a season that is the current season
         return team.players.some((player) => {
@@ -19,6 +19,32 @@ const TeamsListing = ({ teams }: Props) => {
         });
     })
     : teams;
+
+  const teamsWithPlayerPerActivitySetting = showOnlyActive ? teamsPerActivitySetting.map((team) => {
+    team.players = team.players.filter(player => {
+      // Return true if any of the seasons end in "-" or contains "2023"
+      return player.seasons.some(season => {
+          return season.includes("2023") || season.endsWith("-");
+      });
+  });
+    return team;
+  }) : teamsPerActivitySetting;
+
+  const teamsToShow = teamsWithPlayerPerActivitySetting.map((team) => {
+    const players = team.players;
+    const playersCount = players.length;
+    const goalieCount = players.filter((player) => player.playerPosition === "G").length;
+    const defenderCount = players.filter((player) => player.playerPosition === "D").length;
+    const forwardCount = players.filter((player) => player.playerPosition === "F").length;
+
+    return {
+      ...team,
+      playersCount,
+      goalieCount,
+      defenderCount,
+      forwardCount,
+    };
+  });
 
   const toggleShowOnlyActive = () => {
     setShowOnlyActive(!showOnlyActive);
@@ -46,7 +72,7 @@ const TeamsListing = ({ teams }: Props) => {
           </button>
         </div>
       </div>
-      <TeamsTable teams={teamsToShow} showOnlyCurrentTeam={showOnlyActive} />
+      <TeamsTable teams={teamsToShow} />
     </div>
   );
 };

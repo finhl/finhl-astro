@@ -5,7 +5,6 @@ import type { Team } from './TeamsTable.tsx';
 
 type Props = {
     team: Team
-    onlyShowCurrentTeam?: boolean
 };
 
 function positionMap(position: string) {
@@ -22,13 +21,7 @@ function positionMap(position: string) {
     }
 }
 
-const TeamRow = ({team, onlyShowCurrentTeam = false}: Props) => {
-    const players = onlyShowCurrentTeam ? team.players.filter(player => {
-        // Return true if any of the seasons end in "-" or contains "2023"
-        return player.seasons.some(season => {
-            return season.includes("2023") || season.endsWith("-");
-        });
-    }) : team.players;
+const TeamRow = ({team}: Props) => {
     return (
         <tr>
             <td className='align-top py-5'>{team.team}</td>
@@ -38,9 +31,9 @@ const TeamRow = ({team, onlyShowCurrentTeam = false}: Props) => {
             <td className='align-top pl-1 md:pl-5 py-5'>{team.forwardCount}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>{team.seasonsCount}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>
-                {players.map(player => {
+                {team.players.map(player => {
                     return (
-                        <div>{player.player} ({positionMap(player.playerPosition)}, {player.playerBirthDate.slice(0, 4)}) {player.seasons.join(", ")}</div>
+                        <div key={player.playerWikiLink}>{player.player} ({positionMap(player.playerPosition)}, {player.playerBirthDate.slice(0, 4)}) {player.seasons.join(", ")}</div>
                     );
                 })}
             </td>

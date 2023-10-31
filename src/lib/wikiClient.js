@@ -29,13 +29,22 @@ export function getPlayersSeasonsTeamsList() {
                 ...seasonAndTeam,
                 id,
                 player: player.name,
-                playerWikiLink: player.wikiLink,
+                hdbid: player.hdbid,
             });
             id++;
         });
     });
 
     return list;
+}
+
+function dataEnrichedAsObjectWithHdbidAsKey() {
+    const players = {};
+    dataEnriched.forEach((player) => {
+        players[player.hdbid] = player;
+    });
+
+    return players;
 }
 
 export function getPlayersWithPerTeamData() {
@@ -137,4 +146,100 @@ export function getPlayersByTeams() {
     );
 
     return teamsArrWithPlayersPerTeamCount;
+}
+
+export function getPlayersBySeasons() {
+    const playersSeasonsAndTeamsList = getPlayersSeasonsTeamsList();
+    const uniqueSeasons = new Set();
+    playersSeasonsAndTeamsList.forEach((seasonAndTeam) => {
+        uniqueSeasons.add(seasonAndTeam.season);
+    });
+    const uniqueSeasonsArr = Array.from(uniqueSeasons).map((season) => {
+        return {
+            season,
+        };
+    });
+
+    // Add unique players to each season. Each player can be in multiple seasons and is identified by hdbid
+    const seasonsWithPlayers = uniqueSeasonsArr.map((season) => {
+        const uniquePlayers = new Set();
+        playersSeasonsAndTeamsList.forEach((seasonAndTeam) => {
+            if (seasonAndTeam.season === season.season) {
+                uniquePlayers.add({hdbid: seasonAndTeam.hdbid, teams: []});
+            }
+        });
+
+        const uniquePlayersArr = Array.from(uniquePlayers);
+
+        // Add unique teams to each player for each season
+        uniquePlayersArr.forEach((player) => {
+            const uniqueTeams = new Set();
+            playersSeasonsAndTeamsList.forEach((seasonAndTeam) => {
+                if (seasonAndTeam.season === season.season && seasonAndTeam.hdbid === player.hdbid) {
+                    uniqueTeams.add(seasonAndTeam.team);
+                }
+            });
+            player.teams = Array.from(uniqueTeams);
+        });
+
+        return {
+            ...season,
+            players: uniquePlayersArr,
+        };
+    });
+
+    // Add players and unique teams count to each season
+    const seasonsWithPlayersAndTeamsCount = seasonsWithPlayers.map((season) => {
+        const uniqueTeams = new Set();
+        season.players.forEach((player) => {
+            player.teams.forEach((team) => {
+                uniqueTeams.add(team);
+            });
+        });
+
+        return {
+            ...season,
+            playersCount: season.players.length,
+            teamsCount: uniqueTeams.size,
+        };
+    });
+
+    const playerData = dataEnrichedAsObjectWithHdbidAsKey();
+    const seasonsWithPlayerData = seasonsWithPlayersAndTeamsCount.map((season) => {
+        const players = season.players.map((player) => {
+            return {
+                name: playerData[player.hdbid].name,
+                position: playerData[player.hdbid].position,
+                birthDate: playerData[player.hdbid].birthDate,
+                hdbid: playerData[player.hdbid].hdbid,
+                teams: player.teams,
+            };
+        });
+
+        return {
+            ...season,
+            players,
+        };
+    });
+
+    const seasonsWithPositionCount = seasonsWithPlayerData.map((season) => {
+        const goalieCount = season.players.filter((player) => player.position === 'G').length;
+        const defenderCount = season.players.filter((player) => player.position === 'D').length;
+        const forwardCount = season.players.filter((player) => player.position === 'F').length;
+
+        return {
+            ...season,
+            goalieCount,
+            defenderCount,
+            forwardCount,
+        };
+    }
+    );
+
+    const seasonsOrderedBySeason = seasonsWithPositionCount.sort((a, b) => {
+        return a.season > b.season ? 1 : -1;
+    }
+    );
+
+    return seasonsOrderedBySeason;
 }

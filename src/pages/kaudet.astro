@@ -1,10 +1,10 @@
 ---
-import { getPlayersByTeams, getPlayersBySeasons } from "../lib/wikiClient.js";
+import { getPlayersBySeasons } from "../lib/wikiClient.js";
 import Layout from "../layouts/Layout.astro";
+import SeasonsListing from "../components/SeasonsListing.tsx";
 
 const TITLE_TAG = "Kaudet";
 
-const teams = getPlayersByTeams();
 const seasons = getPlayersBySeasons();
 ---
 
@@ -42,15 +42,11 @@ const seasons = getPlayersBySeasons();
 
     <div class="mb-12">
       <p class="lead-text">
-        NHL:ssä on pelannut suomalaisia <b>{teams.length}</b> eri seurassa.
+        NHL:ssä on pelannut suomalaisia <b>{seasons.length}</b> eri kaudella.
       </p>
     </div>
 
-    <!-- <pre>
-      <code>{JSON.stringify(seasons, null, 2)}</code>
-    </pre> -->
-
-    <!-- <TeamsListing teams={teams} client:load /> -->
+    <SeasonsListing seasons={seasons} client:load />
 
     <p class="source-info">
       Lähde: <a

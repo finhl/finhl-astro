@@ -91,6 +91,7 @@ export function getPlayersByTeams() {
                 }
             });
 
+            // Array of strings
             const uniqueSeasonsArr = Array.from(uniqueSeasons);
             
             const data = {
@@ -99,6 +100,7 @@ export function getPlayersByTeams() {
                 playerBirthDate: player.birthDate,
                 playerWikiLink: player.wikiLink,
                 seasons: playerTeam.seasons,
+                // Contain array of strings
                 seasonsList: uniqueSeasonsArr,
             }
             if (teams[playerTeam.team]) {
@@ -124,6 +126,7 @@ export function getPlayersByTeams() {
         const uniqueSeasons = new Set();
         team.players.forEach((player) => {
             player.seasonsList.forEach((season) => {
+                // Adding a string to a set will not add duplicates
                 uniqueSeasons.add(season);
             });
         });

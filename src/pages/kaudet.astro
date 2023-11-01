@@ -46,6 +46,11 @@ const seasons = getPlayersBySeasons();
       </p>
     </div>
 
+    <!-- Show seasons as json object -->
+    {/*
+    <pre>{JSON.stringify(seasons, null, 2)}</pre>
+     */}
+
     <SeasonsListing seasons={seasons} client:load />
 
     <p class="source-info">

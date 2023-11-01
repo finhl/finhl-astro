@@ -165,11 +165,16 @@ export function getPlayersBySeasons() {
         const uniquePlayers = new Set();
         playersSeasonsAndTeamsList.forEach((seasonAndTeam) => {
             if (seasonAndTeam.season === season.season) {
-                uniquePlayers.add({hdbid: seasonAndTeam.hdbid, teams: []});
+                uniquePlayers.add(seasonAndTeam.hdbid);
             }
         });
 
-        const uniquePlayersArr = Array.from(uniquePlayers);
+        const uniquePlayersArr = Array.from(uniquePlayers).map((hdbid) => {
+            return {
+                hdbid,
+                teams: [],
+            };
+        });
 
         // Add unique teams to each player for each season
         uniquePlayersArr.forEach((player) => {

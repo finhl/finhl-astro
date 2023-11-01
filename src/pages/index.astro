@@ -5,12 +5,15 @@ import PlayersListingAdvanced from "../components/PlayersListingAdvanced.tsx";
 
 const players = getEnrichedData();
 const uniqueTeams = new Set();
+const uniqueSeasons = new Set();
 players.forEach((player) => {
   player.seasonsAndTeams.forEach((seasonAndTeam) => {
     uniqueTeams.add(seasonAndTeam.team);
+    uniqueSeasons.add(seasonAndTeam.season);
   });
 });
 const uniqueTeamsCount = uniqueTeams.size;
+const uniqueSeasonsCount = uniqueSeasons.size;
 const activePlayersCount = players.filter((player) => player.isActive).length;
 const goaliesCount = players.filter((player) => player.position === "G").length;
 const forwardsCount = players.filter(
@@ -58,7 +61,8 @@ const defendersCount = players.filter(
 
     <div class="mb-12">
       <p class="lead-text">
-        NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa. <a href="/seurat/">{uniqueTeamsCount} eri seurassa</a>.
+        NHL:ssä on pelannut <b>{players.length}</b> suomalaista pelaajaa <a href="/seurat/">{uniqueTeamsCount} eri seurassa</a>
+        &nbsp;<a href="/kaudet/">{uniqueSeasonsCount} eri kaudella</a>.
       </p>
       <p class="lead-text">
         <a href="/maalivahdit/"><b>{goaliesCount}</b> maalivahtia</a>, <a

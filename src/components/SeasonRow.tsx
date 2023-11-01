@@ -24,7 +24,11 @@ function positionMap(position: string) {
 const SeasonRow = ({season}: Props) => {
     return (
         <tr>
-            <td className='align-top py-5'>{season.season}</td>
+            <td className='align-top py-5'>
+                <span className='whitespace-nowrap'>
+                    {season.season}
+                </span>
+            </td>
             <td className='align-top pl-1 md:pl-5 py-5'>{season.playersCount}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>{season.goalieCount}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>{season.defenderCount}</td>

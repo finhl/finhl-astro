@@ -1,7 +1,7 @@
 ---
 import { getEnrichedData } from "../lib/wikiClient.js";
 import Layout from "../layouts/Layout.astro";
-import PlayersListingAdvanced from "../components/PlayersListingAdvanced.tsx";
+import PlayersListingWithFilter from "../components/PlayersListingWithFilter.tsx";
 
 const players = getEnrichedData();
 const uniqueTeams = new Set();
@@ -74,7 +74,7 @@ const defendersCount = players.filter(
       </p>
     </div>
 
-    <PlayersListingAdvanced players={players} client:load />
+    <PlayersListingWithFilter players={players} client:load />
 
     <p class="source-info">
       Lähde: <a

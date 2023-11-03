@@ -91,9 +91,6 @@ const PlayersTableWithFilter = ({players, showOnlyCurrentTeam = false, expandAll
     }
     return (
         <div className='overflow-x-auto'>
-            <pre>
-                {JSON.stringify(expandAllTeams, null, 2)}
-            </pre>
             <p className="mb-6 text-sm">PP = pelipaikka, K = kausien lukumäärä, 1.K = ensimmäinen kausi</p>
         <table className="mb-6 min-w-full table-auto">
         <thead>

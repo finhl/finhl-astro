@@ -37,49 +37,57 @@ const PlayersListingWithFilter = ({ players }: Props) => {
   };
 
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-row justify-between">
-        <div>
+    <div>
           <h2 className="text-2xl font-bold mb-6">
             {showOnlyActive ? "Aktiiviset pelaajat" : "Kaikki pelaajat"}
           </h2>
           {showOnlyActive && (
             <div className="mb-6">
-              {playersToShow.length} aktiivista pelaajaa.
+              {playersToShow.length} pelaajaa jotka on pelannut tällä kaudella.
               <br />
               {goaliesInPlayersToShow.length} maalivahtia,{" "}
               {defendersInPlayersToShow.length} puolustajaa ja{" "}
               {forwardsInPlayersToShow.length} hyökkääjää.
             </div>
           )}
-        </div>
-        <div>
+        <div className="-mt-3 -ml-3 mb-6">
           <button
-            className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+            className="text-sm
+            text-gray-300 dark:text-gray-400
+            hover:text-gray-700 dark:hover:text-gray-300
+            border border-gray-300 dark:border-gray-700
+            hover:bg-gray-300
+            px-2 py-1 ml-3 mt-3"
             onClick={toggleShowOnlyActive}
           >
             {showOnlyActive ? "Kaikki" : "Vain aktiiviset"}
           </button>
           {showOnlyActive && (
-            <div className="pt-6">
               <button
-                className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+                className="text-sm
+                text-gray-300 dark:text-gray-400
+                hover:text-gray-700 dark:hover:text-gray-300
+                border border-gray-300 dark:border-gray-700
+                hover:bg-gray-300
+                px-2 py-1 ml-3 mt-3"
                 onClick={toggleShowOnlyCurrentTeam}
               >
                 {showOnlyCurrentTeam ? "Kaikki seurat" : "Vain nykyinen seura"}
               </button>
-            </div>
           )}
-        </div>
-        <div>
+
           <button
-            className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+            className="text-sm
+              text-gray-300 dark:text-gray-400
+              hover:text-gray-700 dark:hover:text-gray-300
+              border border-gray-300 dark:border-gray-700
+              hover:bg-gray-300
+              px-2 py-1 ml-3 mt-3"
             onClick={() => setExpandAllTeams(!expandAllTeams)}
           >
             {expandAllTeams ? "Piilota kaikki seurat" : "Näytä kaikki seurat"}
           </button>
         </div>
-      </div>
       <PlayersTableWithFilter
         players={playersToShow}
         showOnlyCurrentTeam={showOnlyActive && showOnlyCurrentTeam}

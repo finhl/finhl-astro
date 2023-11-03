@@ -23,12 +23,15 @@ function positionMap(position: string) {
     }
 }
 
-const PlayerRowWithFilter = ({player, onlyShowCurrentTeam = false, showTeamsInitial = false}: Props) => {
+const PlayerRowWithFilter = ({player, showTeamsInitial = false}: Props) => {
     const [showTeams, setShowTeams] = useState(showTeamsInitial);
 
     useEffect(() => {
         setShowTeams(showTeamsInitial);
     }, [showTeamsInitial]);
+
+    const latestSeason = player.seasonsAndTeamsGroupedAlt[player.seasonsAndTeamsGroupedAlt.length - 1];
+    const teamsButtonClass = player.isActive ? 'font-bold' : '';
     return (
         <>
         {/* row should have a top border */}
@@ -42,7 +45,7 @@ const PlayerRowWithFilter = ({player, onlyShowCurrentTeam = false, showTeamsInit
             <td className='align-top pl-1 md:pl-5 py-5'>{player.numberOfSeasons}</td>
             <td className='align-top pl-1 md:pl-5 py-5'>{player.firstSeason.slice(0,4)}</td>
             <td className='align-top pl-1 md:pl-5 py-5 text-right'>
-                <button className='underline' onClick={() => setShowTeams(!showTeams)}>{player.numberOfTeams} seura{player.numberOfTeams > 1 && 'a'} {showTeams ? '▲' : '▼'}</button>
+                <button className={`underline ${teamsButtonClass}`} onClick={() => setShowTeams(!showTeams)}>{latestSeason.team}{player.numberOfTeams >  1 && ` (+ ${player.numberOfTeams - 1})`} {showTeams ? '▲' : '▼'}</button>
             </td>
         </tr>
         {showTeams && (
@@ -52,16 +55,12 @@ const PlayerRowWithFilter = ({player, onlyShowCurrentTeam = false, showTeamsInit
                         <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
                 {player.seasonsAndTeamsGroupedAlt.map(teamAndSeasons => {
                         const { team, seasons } = teamAndSeasons;
-                        // If onlyShowCurrentTeam is true, only show the current team
-                        const isCurrent = seasons.endsWith('-');
-                        if (onlyShowCurrentTeam && !isCurrent) {
-                            return null;
-                        }
+                        const seasonsList = seasons.split(', ');
 
                         return (
                             <tr key={teamAndSeasons.team + seasons}>
                                 {/* Add <b> tag if current */}
-                                {isCurrent ? <><td className='align-top'><b>{team}</b></td><td className='align-top pl-1 md:pl-5'><b>{seasons}</b></td></> : <><td className='align-top'>{team}</td><td className='align-top pl-1 md:pl-5'>{seasons}</td></>}
+                                <><td className='align-top'>{team}</td><td className='align-top pl-1 md:pl-5'>{seasonsList.map(season => <div>{season}</div>)}</td></>
                             </tr>
                         );
                     }

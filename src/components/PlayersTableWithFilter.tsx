@@ -28,11 +28,10 @@ export type Player = {
 
 type Props = {
     players: Array<Player>
-    showOnlyCurrentTeam?: boolean
     expandAllTeams?: boolean
 };
 
-const PlayersTableWithFilter = ({players, showOnlyCurrentTeam = false, expandAllTeams = false}: Props) => {
+const PlayersTableWithFilter = ({players, expandAllTeams = false}: Props) => {
     const [sortBy, setSortBy] = useState('names');
     const [sortAsc, setSortAsc] = useState(true);
 
@@ -91,7 +90,7 @@ const PlayersTableWithFilter = ({players, showOnlyCurrentTeam = false, expandAll
     }
     return (
         <div className='overflow-x-auto'>
-            <p className="mb-6 text-sm">PP = pelipaikka, K = kausien lukumäärä, 1.K = ensimmäinen kausi</p>
+            <p className="mb-6 text-sm">PP = pelipaikka, K = kausien lukumäärä, 1.K = ensimmäinen kausi, Seura(t) = Viimeisin seura (aikaisemmat yhteensä)</p>
         <table className="mb-6 min-w-full table-auto">
         <thead>
             <tr>
@@ -116,7 +115,7 @@ const PlayersTableWithFilter = ({players, showOnlyCurrentTeam = false, expandAll
             </tr>
         </thead>
         <tbody>
-            {sortedPlayers.map(player => <PlayerRowWithFilter player={player} onlyShowCurrentTeam={showOnlyCurrentTeam} showTeamsInitial={expandAllTeams} key={player.wikiLink} />)}
+            {sortedPlayers.map(player => <PlayerRowWithFilter player={player} showTeamsInitial={expandAllTeams} key={player.wikiLink} />)}
         </tbody>
         </table>
         <p className="mb-6 text-sm">Seuran vuodet tarkoittaa kauden <i>aloitusvuotta</i>. Esim. "Montreal Canadiens 1997-1998" tarkoittaa että pelaaja on edustanut Montrealia kausina 97-98 ja 98-99.</p>

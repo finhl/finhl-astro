@@ -26,6 +26,13 @@
         ],
         "hdbid": "5928",
         "qhid": "1",
+        "birthplace": "Lappeenranta, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1997-12-06",
+            "game": "ANA - PIT",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Mighty Ducks",
@@ -86,6 +93,13 @@
         ],
         "hdbid": "174983",
         "qhid": "23797",
+        "birthplace": "Rauma, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2016-10-13",
+            "game": "CAR - WPG",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Carolina Hurricanes",
@@ -134,6 +148,13 @@
         ],
         "hdbid": "5949",
         "qhid": "37",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1991-10-04",
+            "game": "LAK - WPG",
+            "score": "6-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -194,6 +215,13 @@
         ],
         "hdbid": "126409",
         "qhid": "9268",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-04-11",
+            "game": "COL - LAK",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
@@ -230,6 +258,13 @@
         ],
         "hdbid": "19175",
         "qhid": "45",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1999-10-02",
+            "game": "PHX - STL",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Phoenix Coyotes",
@@ -266,6 +301,13 @@
         ],
         "hdbid": "213316",
         "qhid": "52483",
+        "birthplace": "Kempele, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-12-04",
+            "game": "COL - OTT",
+            "score": "5-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
@@ -334,6 +376,13 @@
         ],
         "hdbid": "130454",
         "qhid": "12250",
+        "birthplace": "Pori, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2014-12-23",
+            "game": "BUF - DET",
+            "score": "3-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -418,6 +467,13 @@
         ],
         "hdbid": "42585",
         "qhid": "197",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-10-07",
+            "game": "NSH - MIN",
+            "score": "5-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -498,6 +554,13 @@
         ],
         "hdbid": "145634",
         "qhid": "12229",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-10-03",
+            "game": "FLA - DAL",
+            "score": "4-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -566,6 +629,13 @@
         ],
         "hdbid": "16597",
         "qhid": "375",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1995-10-07",
+            "game": "COL - LAK",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -642,6 +712,13 @@
         ],
         "hdbid": "62649",
         "qhid": "379",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2003-10-09",
+            "game": "NYI - WSH",
+            "score": "1-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -698,6 +775,13 @@
         ],
         "hdbid": "194129",
         "qhid": "28934",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2022-01-02",
+            "game": "SJS - PIT",
+            "score": "5-8"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -746,6 +830,13 @@
         ],
         "hdbid": "426",
         "qhid": "477",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1981-10-24",
+            "game": "WSH - NYI",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Washington Capitals",
@@ -802,6 +893,13 @@
         ],
         "hdbid": "193764",
         "qhid": "48336",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-03-29",
+            "game": "FLA - OTT",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -854,6 +952,13 @@
         ],
         "hdbid": "49934",
         "qhid": "1270",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2002-01-03",
+            "game": "WSH - OTT",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -910,6 +1015,13 @@
         ],
         "hdbid": "122758",
         "qhid": "9287",
+        "birthplace": "Raahe, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2015-10-07",
+            "game": "SJS - LAK",
+            "score": "5-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -958,6 +1070,13 @@
         ],
         "hdbid": "15601",
         "qhid": "1606",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1999-10-16",
+            "game": "SJS - WSH",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Washington Capitals",
@@ -1010,6 +1129,13 @@
         ],
         "hdbid": "1556",
         "qhid": "1607",
+        "birthplace": "Lahti, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-10-10",
+            "game": "CGY - STL",
+            "score": "6-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -1074,6 +1200,13 @@
         ],
         "hdbid": "34093",
         "qhid": "1608",
+        "birthplace": "Aura, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1999-10-02",
+            "game": "CAR - BOS",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -1178,6 +1311,13 @@
         ],
         "hdbid": "64511",
         "qhid": "1726",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2005-12-15",
+            "game": "DET - FLA",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Detroit Red Wings",
@@ -1254,6 +1394,13 @@
         ],
         "hdbid": "123448",
         "qhid": "17446",
+        "birthplace": "Karkkila, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2016-01-02",
+            "game": "NYI - PIT",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -1322,6 +1469,13 @@
         ],
         "hdbid": "132220",
         "qhid": "12136",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2014-02-27",
+            "game": "LAK - CGY",
+            "score": "2-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -1422,6 +1576,13 @@
         ],
         "hdbid": "118389",
         "qhid": "8957",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-01-19",
+            "game": "COL - MIN",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -1482,6 +1643,13 @@
         ],
         "hdbid": "2046",
         "qhid": "2153",
+        "birthplace": "Viitasaari, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1996-10-05",
+            "game": "CHI - WSH",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -1542,6 +1710,13 @@
         ],
         "hdbid": "6326",
         "qhid": "2155",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1986-10-11",
+            "game": "MNS - QUE",
+            "score": "4-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota North Stars",
@@ -1598,6 +1773,13 @@
         ],
         "hdbid": "34170",
         "qhid": "2190",
+        "birthplace": "Outokumpu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2002-10-17",
+            "game": "EDM - SJS",
+            "score": "3-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -1638,6 +1820,13 @@
         ],
         "hdbid": "9657",
         "qhid": "2191",
+        "birthplace": "Nokia, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1985-10-12",
+            "game": "NYI - LAK",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -1670,6 +1859,13 @@
         ],
         "hdbid": "159916",
         "qhid": "12840",
+        "birthplace": "Lempäälä, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2017-11-22",
+            "game": "TOR - FLA",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -1714,6 +1910,13 @@
         ],
         "hdbid": "2087",
         "qhid": "2202",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1976-10-07",
+            "game": "MNS - BOS",
+            "score": "2-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -1802,6 +2005,13 @@
         ],
         "hdbid": "42583",
         "qhid": "2203",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2001-10-04",
+            "game": "FLA - PHI",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -1874,6 +2084,13 @@
         ],
         "hdbid": "45080",
         "qhid": "2204",
+        "birthplace": "Hämeenlinna, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2002-01-09",
+            "game": "CHI - COL",
+            "score": "3-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
@@ -1926,6 +2143,13 @@
         ],
         "hdbid": "127800",
         "qhid": "12156",
+        "birthplace": "Kirkkonummi, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2020-03-04",
+            "game": "ANA - COL",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Ducks",
@@ -1986,6 +2210,13 @@
         ],
         "hdbid": "144579",
         "qhid": "12192",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-11-28",
+            "game": "CBJ - STL",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -2026,6 +2257,13 @@
         ],
         "hdbid": "112587",
         "qhid": "8132",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2011-03-17",
+            "game": "PHX - EDM",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -2058,6 +2296,13 @@
         ],
         "hdbid": "225177",
         "qhid": "92223",
+        "birthplace": "Riihimäki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-10-30",
+            "game": "WPG - SJS",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -2134,6 +2379,13 @@
         ],
         "hdbid": "120930",
         "qhid": "17547",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-11-29",
+            "game": "COL - MIN",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -2214,6 +2466,13 @@
         ],
         "hdbid": "76190",
         "qhid": "7002",
+        "birthplace": "Rauma, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-12-05",
+            "game": "NYR - BUF",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -2262,6 +2521,13 @@
         ],
         "hdbid": "217206",
         "qhid": "67660",
+        "birthplace": "Honkajoki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-10-03",
+            "game": "WPG - NYR",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -2314,6 +2580,13 @@
         ],
         "hdbid": "195238",
         "qhid": "38271",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-04",
+            "game": "ARI - DAL",
+            "score": "0-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -2346,6 +2619,13 @@
         ],
         "hdbid": "94154",
         "qhid": "6878",
+        "birthplace": "Pälkäne, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-01-30",
+            "game": "PHI - TBL",
+            "score": "6-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Tampa Bay Lightning",
@@ -2406,6 +2686,13 @@
         ],
         "hdbid": "13683",
         "qhid": "2387",
+        "birthplace": "Hyvinkää, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1996-12-14",
+            "game": "COL - CGY",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -2482,6 +2769,13 @@
         ],
         "hdbid": "6357",
         "qhid": "2391",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1985-10-12",
+            "game": "NYR - HFD",
+            "score": "2-8"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -2534,6 +2828,13 @@
         ],
         "hdbid": "49924",
         "qhid": "2412",
+        "birthplace": "Joroinen, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2001-10-13",
+            "game": "CGY - DAL",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -2582,6 +2883,13 @@
         ],
         "hdbid": "196060",
         "qhid": "49651",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-01-30",
+            "game": "FLA - DET",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -2634,6 +2942,13 @@
         ],
         "hdbid": "162402",
         "qhid": "22671",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-04",
+            "game": "ARI - DAL",
+            "score": "0-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -2674,6 +2989,13 @@
         ],
         "hdbid": "170227",
         "qhid": "23517",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2016-11-21",
+            "game": "MIN - DAL",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -2718,6 +3040,13 @@
         ],
         "hdbid": "29109",
         "qhid": "2639",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-04-09",
+            "game": "TBL - OTT",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -2770,6 +3099,13 @@
         ],
         "hdbid": "159892",
         "qhid": "20175",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-01-15",
+            "game": "STL - COL",
+            "score": "0-8"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "St. Louis Blues",
@@ -2814,6 +3150,13 @@
         ],
         "hdbid": "40220",
         "qhid": "2655",
+        "birthplace": "Oulu, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2002-03-23",
+            "game": "SJS - LAK",
+            "score": "0-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -2858,6 +3201,13 @@
         ],
         "hdbid": "62694",
         "qhid": "2662",
+        "birthplace": "Rantasalmi, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2006-04-06",
+            "game": "NYI - NYR",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -2890,6 +3240,13 @@
         ],
         "hdbid": "6234",
         "qhid": "2714",
+        "birthplace": "Humppila, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1986-03-14",
+            "game": "DET - EDM",
+            "score": "3-12"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -2930,6 +3287,13 @@
         ],
         "hdbid": "6247",
         "qhid": "2715",
+        "birthplace": "Oulu, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1982-10-07",
+            "game": "NYI - CGY",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -2970,6 +3334,13 @@
         ],
         "hdbid": "22581",
         "qhid": "2728",
+        "birthplace": "Lahti, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1996-10-09",
+            "game": "STL - CGY",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -3010,6 +3381,13 @@
         ],
         "hdbid": "2512",
         "qhid": "2735",
+        "birthplace": "Ii, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1986-10-09",
+            "game": "BUF - WPG",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -3042,6 +3420,13 @@
         ],
         "hdbid": "15590",
         "qhid": "2736",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2001-10-09",
+            "game": "ANA - MTL",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -3058,6 +3443,45 @@
         "numberOfSeasons": 1,
         "firstSeason": "2001-02",
         "latestSeason": "2001-02"
+    },
+    {
+        "name": "Roby Järventie",
+        "firstName": "Roby",
+        "lastName": "Järventie",
+        "wikiLink": "/wiki/Roby_J%C3%A4rventie",
+        "position": "F",
+        "birthDate": "2002-08-08",
+        "seasonsAndTeams": [
+            {
+                "season": "2023-24",
+                "team": "Ottawa Senators"
+            }
+        ],
+        "hdbid": "228378",
+        "qhid": "59107",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2023-11-04",
+            "game": "TBL - OTT",
+            "score": "6-4"
+        },
+        "seasonsAndTeamsGrouped": [
+            {
+                "team": "Ottawa Senators",
+                "seasons": "2023-24"
+            }
+        ],
+        "seasonsAndTeamsGroupedAlt": [
+            {
+                "team": "Ottawa Senators",
+                "seasons": "2023-"
+            }
+        ],
+        "numberOfTeams": 1,
+        "numberOfSeasons": 1,
+        "firstSeason": "2023-24",
+        "latestSeason": "2023-24"
     },
     {
         "name": "Iiro Järvi",
@@ -3078,6 +3502,13 @@
         ],
         "hdbid": "2513",
         "qhid": "2737",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1988-10-06",
+            "game": "QUE - HFD",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Quebec Nordiques",
@@ -3110,6 +3541,13 @@
         ],
         "hdbid": "9448",
         "qhid": "2742",
+        "birthplace": "Pori, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1985-01-09",
+            "game": "VAN - PIT",
+            "score": "4-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -3162,6 +3600,13 @@
         ],
         "hdbid": "81592",
         "qhid": "6897",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-03-02",
+            "game": "COL - NYI",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -3202,6 +3647,13 @@
         ],
         "hdbid": "37002",
         "qhid": "2808",
+        "birthplace": "Lappeenranta, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2003-02-18",
+            "game": "VAN - DET",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Vancouver Canucks",
@@ -3254,6 +3706,13 @@
         ],
         "hdbid": "196298",
         "qhid": "38272",
+        "birthplace": "Oulu, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2018-10-04",
+            "game": "CHI - OTT",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -3366,6 +3825,13 @@
         ],
         "hdbid": "56781",
         "qhid": "2809",
+        "birthplace": "Kalajoki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2005-10-05",
+            "game": "LAK - DAL",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -3542,6 +4008,13 @@
         ],
         "hdbid": "28403",
         "qhid": "2810",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1997-10-01",
+            "game": "LAK - PIT",
+            "score": "3-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -3670,6 +4143,13 @@
         ],
         "hdbid": "130461",
         "qhid": "12175",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2014-10-24",
+            "game": "DAL - NJD",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -3730,6 +4210,13 @@
         ],
         "hdbid": "187471",
         "qhid": "34776",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2020-08-07",
+            "game": "VAN - MIN",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Vancouver Canucks",
@@ -3778,6 +4265,13 @@
         ],
         "hdbid": "9470",
         "qhid": "2849",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1984-10-11",
+            "game": "MTL - BUF",
+            "score": "3-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -3810,6 +4304,13 @@
         ],
         "hdbid": "7477",
         "qhid": "2851",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1980-12-30",
+            "game": "CLR - NYI",
+            "score": "3-9"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Rockies",
@@ -3862,6 +4363,13 @@
         ],
         "hdbid": "162341",
         "qhid": "20205",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-11-26",
+            "game": "MIN - NJD",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -3918,6 +4426,13 @@
         ],
         "hdbid": "211199",
         "qhid": "57448",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-10-03",
+            "game": "WPG - NYR",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -3966,6 +4481,13 @@
         ],
         "hdbid": "16594",
         "qhid": "2864",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-07",
+            "game": "NYR - ATL",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Atlanta Thrashers",
@@ -4014,6 +4536,13 @@
         ],
         "hdbid": "6308",
         "qhid": "2872",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1984-10-16",
+            "game": "NJD - NYI",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -4082,6 +4611,13 @@
         ],
         "hdbid": "162338",
         "qhid": "14107",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2016-02-29",
+            "game": "TBL - TOR",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Toronto Maple Leafs",
@@ -4154,6 +4690,13 @@
         ],
         "hdbid": "34083",
         "qhid": "2878",
+        "birthplace": "Hattula, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2001-10-09",
+            "game": "LAK - DAL",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -4250,6 +4793,13 @@
         ],
         "hdbid": "2628",
         "qhid": "2879",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1995-12-13",
+            "game": "TBL - HFD",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Hartford Whalers",
@@ -4310,6 +4860,13 @@
         ],
         "hdbid": "15588",
         "qhid": "2882",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1999-12-11",
+            "game": "LAK - MTL",
+            "score": "4-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -4354,6 +4911,13 @@
         ],
         "hdbid": "169823",
         "qhid": "37859",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-11-16",
+            "game": "TOR - PIT",
+            "score": "1-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Toronto Maple Leafs",
@@ -4402,6 +4966,13 @@
         ],
         "hdbid": "2670",
         "qhid": "2916",
+        "birthplace": "Tampere, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1989-10-05",
+            "game": "PIT - BOS",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -4442,6 +5013,13 @@
         ],
         "hdbid": "96482",
         "qhid": "8878",
+        "birthplace": "Kajaani, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-10-08",
+            "game": "WPG - BOS",
+            "score": "6-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -4474,6 +5052,13 @@
         ],
         "hdbid": "126410",
         "qhid": "9297",
+        "birthplace": "Stockholm, Sweden",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-11-17",
+            "game": "MIN - PIT",
+            "score": "3-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -4506,6 +5091,13 @@
         ],
         "hdbid": "4216",
         "qhid": "2953",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-10-06",
+            "game": "CLR - VAN",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Rockies",
@@ -4542,6 +5134,13 @@
         ],
         "hdbid": "2732",
         "qhid": "2984",
+        "birthplace": "Turku, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1995-10-07",
+            "game": "PHI - MTL",
+            "score": "7-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -4630,6 +5229,13 @@
         ],
         "hdbid": "15587",
         "qhid": "2985",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-24",
+            "game": "SJS - CAR",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -4682,6 +5288,13 @@
         ],
         "hdbid": "171624",
         "qhid": "22613",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2020-01-03",
+            "game": "DET - DAL",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -4722,6 +5335,13 @@
         ],
         "hdbid": "56033",
         "qhid": "6658",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2007-10-06",
+            "game": "DAL - NSH",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -4762,6 +5382,13 @@
         ],
         "hdbid": "34074",
         "qhid": "3028",
+        "birthplace": "Turku, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2002-10-10",
+            "game": "ANA - STL",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "St. Louis Blues",
@@ -4854,6 +5481,13 @@
         ],
         "hdbid": "56074",
         "qhid": "3029",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2005-11-05",
+            "game": "MIN - SJS",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -4962,6 +5596,13 @@
         ],
         "hdbid": "2771",
         "qhid": "3030",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1995-10-07",
+            "game": "PHI - MTL",
+            "score": "7-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -5010,6 +5651,13 @@
         ],
         "hdbid": "191466",
         "qhid": "33261",
+        "birthplace": "Nokia, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-11-16",
+            "game": "NYI - PHI",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -5074,6 +5722,13 @@
         ],
         "hdbid": "90107",
         "qhid": "7371",
+        "birthplace": "Narva, Estonia",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-01-19",
+            "game": "TOR - MTL",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Toronto Maple Leafs",
@@ -5114,6 +5769,13 @@
         ],
         "hdbid": "76181",
         "qhid": "6614",
+        "birthplace": "Seinäjoki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2007-11-25",
+            "game": "CHI - VAN",
+            "score": "0-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -5146,6 +5808,13 @@
         ],
         "hdbid": "194130",
         "qhid": "38273",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2023-01-12",
+            "game": "SEA - BOS",
+            "score": "3-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -5218,6 +5887,13 @@
         ],
         "hdbid": "78675",
         "qhid": "6745",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2008-05-04",
+            "game": "NYR - PIT",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -5326,6 +6002,13 @@
         ],
         "hdbid": "155337",
         "qhid": "12784",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-12-14",
+            "game": "TBL - CBJ",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -5390,6 +6073,13 @@
         ],
         "hdbid": "112570",
         "qhid": "7995",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2011-02-08",
+            "game": "TOR - NYI",
+            "score": "5-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -5438,6 +6128,13 @@
         ],
         "hdbid": "160741",
         "qhid": "37885",
+        "birthplace": "Neuilly-sur-Seine, France",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2017-01-25",
+            "game": "EDM - ANA",
+            "score": "4-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Ducks",
@@ -5490,6 +6187,13 @@
         ],
         "hdbid": "207533",
         "qhid": "48531",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-03",
+            "game": "MTL - TOR",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -5546,6 +6250,13 @@
         ],
         "hdbid": "56047",
         "qhid": "3117",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2003-10-08",
+            "game": "MIN - CHI",
+            "score": "0-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -5594,6 +6305,13 @@
         ],
         "hdbid": "34198",
         "qhid": "3123",
+        "birthplace": "Luumäki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-05",
+            "game": "OTT - BOS",
+            "score": "4-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -5642,6 +6360,13 @@
         ],
         "hdbid": "192101",
         "qhid": "37215",
+        "birthplace": "Oulunsalo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2017-10-07",
+            "game": "MIN - CAR",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Carolina Hurricanes",
@@ -5694,6 +6419,13 @@
         ],
         "hdbid": "207740",
         "qhid": "48535",
+        "birthplace": "Kotka, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2021-03-05",
+            "game": "STL - LAK",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -5802,6 +6534,13 @@
         ],
         "hdbid": "2852",
         "qhid": "3130",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1980-10-10",
+            "game": "QUE - EDM",
+            "score": "7-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -5866,6 +6605,13 @@
         ],
         "hdbid": "6344",
         "qhid": "3148",
+        "birthplace": "Joensuu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1988-10-12",
+            "game": "WPG - CHI",
+            "score": "1-10"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -5906,6 +6652,13 @@
         ],
         "hdbid": "83090",
         "qhid": "6948",
+        "birthplace": "Tuusula, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2009-10-03",
+            "game": "NSH - DAL",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -5966,6 +6719,13 @@
         ],
         "hdbid": "22601",
         "qhid": "3151",
+        "birthplace": "Tammela, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1998-10-10",
+            "game": "STL - BOS",
+            "score": "3-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -6046,6 +6806,13 @@
         ],
         "hdbid": "176922",
         "qhid": "24761",
+        "birthplace": "Tampere, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2016-10-13",
+            "game": "CAR - WPG",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -6094,6 +6861,13 @@
         ],
         "hdbid": "169514",
         "qhid": "20215",
+        "birthplace": "Noormarkku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-11",
+            "game": "CBJ - FLA",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -6146,6 +6920,13 @@
         ],
         "hdbid": "169515",
         "qhid": "20178",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-01-19",
+            "game": "CHI - FLA",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -6230,6 +7011,13 @@
         ],
         "hdbid": "3001",
         "qhid": "3305",
+        "birthplace": "Lahti, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1995-01-24",
+            "game": "WSH - QUE",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Quebec Nordiques",
@@ -6326,6 +7114,13 @@
         ],
         "hdbid": "147613",
         "qhid": "12239",
+        "birthplace": "Piikkiö, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2016-10-13",
+            "game": "MTL - BUF",
+            "score": "4-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -6382,6 +7177,13 @@
         ],
         "hdbid": "96457",
         "qhid": "8032",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2014-10-09",
+            "game": "NYR - STL",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "St. Louis Blues",
@@ -6474,6 +7276,13 @@
         ],
         "hdbid": "3088",
         "qhid": "3374",
+        "birthplace": "Espoo, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1995-10-07",
+            "game": "DAL - WPG",
+            "score": "5-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -6506,6 +7315,13 @@
         ],
         "hdbid": "35143",
         "qhid": "3375",
+        "birthplace": "Turku, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1985-01-09",
+            "game": "VAN - PIT",
+            "score": "4-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -6538,6 +7354,13 @@
         ],
         "hdbid": "7353",
         "qhid": "3376",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1979-10-20",
+            "game": "WSH - PIT",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Washington Capitals",
@@ -6622,6 +7445,13 @@
         ],
         "hdbid": "50538",
         "qhid": "3377",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2004-03-19",
+            "game": "FLA - ATL",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Atlanta Thrashers",
@@ -6662,6 +7492,13 @@
         ],
         "hdbid": "56043",
         "qhid": "3378",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-10-07",
+            "game": "NSH - MIN",
+            "score": "5-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -6698,6 +7535,13 @@
         ],
         "hdbid": "87863",
         "qhid": "6925",
+        "birthplace": "Espoo, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2009-04-11",
+            "game": "BOS - BUF",
+            "score": "1-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -6734,6 +7578,13 @@
         ],
         "hdbid": "147094",
         "qhid": "12248",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-01-18",
+            "game": "WPG - TOR",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Toronto Maple Leafs",
@@ -6798,6 +7649,13 @@
         ],
         "hdbid": "70492",
         "qhid": "6879",
+        "birthplace": "Savonlinna, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-01-31",
+            "game": "DET - WSH",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Detroit Red Wings",
@@ -6858,6 +7716,13 @@
         ],
         "hdbid": "3090",
         "qhid": "3382",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-10-09",
+            "game": "NYR - WPG",
+            "score": "3-8"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -6918,6 +7783,13 @@
         ],
         "hdbid": "76164",
         "qhid": "6654",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2008-02-16",
+            "game": "WSH - TBL",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Washington Capitals",
@@ -6978,6 +7850,13 @@
         ],
         "hdbid": "186130",
         "qhid": "28935",
+        "birthplace": "Pieksämäki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-12-05",
+            "game": "COL - MTL",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -7014,6 +7893,13 @@
         ],
         "hdbid": "8344",
         "qhid": "3430",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-10-06",
+            "game": "CLR - VAN",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Rockies",
@@ -7054,6 +7940,13 @@
         ],
         "hdbid": "186147",
         "qhid": "31050",
+        "birthplace": "Varkaus, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2022-12-29",
+            "game": "MTL - FLA",
+            "score": "2-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -7098,6 +7991,13 @@
         ],
         "hdbid": "28402",
         "qhid": "3449",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1997-10-01",
+            "game": "DAL - COL",
+            "score": "2-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -7150,6 +8050,13 @@
         ],
         "hdbid": "144596",
         "qhid": "12809",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2014-10-19",
+            "game": "STL - ANA",
+            "score": "0-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "St. Louis Blues",
@@ -7222,6 +8129,13 @@
         ],
         "hdbid": "155341",
         "qhid": "12811",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2016-01-19",
+            "game": "DAL - LAK",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -7254,6 +8168,13 @@
         ],
         "hdbid": "84345",
         "qhid": "6962",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-10-19",
+            "game": "LAK - DAL",
+            "score": "4-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -7350,6 +8271,13 @@
         ],
         "hdbid": "3237",
         "qhid": "3540",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1988-11-26",
+            "game": "EDM - MTL",
+            "score": "5-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -7438,6 +8366,13 @@
         ],
         "hdbid": "3239",
         "qhid": "3542",
+        "birthplace": "Karijoki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1947-04-03",
+            "game": "BOS - MTL",
+            "score": "3-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -7493,7 +8428,14 @@
             }
         ],
         "hdbid": "217207",
-        "qhid": "3542",
+        "qhid": "58480",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-10-14",
+            "game": "PIT - FLA",
+            "score": "4-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -7526,6 +8468,13 @@
         ],
         "hdbid": "49935",
         "qhid": "3552",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2003-12-30",
+            "game": "MIN - EDM",
+            "score": "2-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -7574,6 +8523,13 @@
         ],
         "hdbid": "197649",
         "qhid": "46012",
+        "birthplace": "Siilinjärvi, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-11-07",
+            "game": "NYR - CAR",
+            "score": "4-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Carolina Hurricanes",
@@ -7618,6 +8574,13 @@
         ],
         "hdbid": "195155",
         "qhid": "43381",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-11-08",
+            "game": "VAN - WPG",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -7670,6 +8633,13 @@
         ],
         "hdbid": "196751",
         "qhid": "38209",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-04-23",
+            "game": "BOS - BUF",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -7746,6 +8716,13 @@
         ],
         "hdbid": "19334",
         "qhid": "3560",
+        "birthplace": "Lahti, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-05",
+            "game": "DET - CGY",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -7834,6 +8811,13 @@
         ],
         "hdbid": "145065",
         "qhid": "17338",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-10-03",
+            "game": "NJD - PIT",
+            "score": "0-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -7898,6 +8882,13 @@
         ],
         "hdbid": "212466",
         "qhid": "58293",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2022-03-03",
+            "game": "COL - ARI",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Arizona Coyotes",
@@ -7934,6 +8925,13 @@
         ],
         "hdbid": "164088",
         "qhid": "20608",
+        "birthplace": "Kemi, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-12-07",
+            "game": "CAR - ANA",
+            "score": "4-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Carolina Hurricanes",
@@ -8002,6 +9000,13 @@
         ],
         "hdbid": "3335",
         "qhid": "3648",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1985-10-12",
+            "game": "NYI - LAK",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -8058,6 +9063,13 @@
         ],
         "hdbid": "56756",
         "qhid": "3650",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-12-12",
+            "game": "MIN - CGY",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -8090,6 +9102,13 @@
         ],
         "hdbid": "204697",
         "qhid": "51028",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2022-12-07",
+            "game": "VAN - SJS",
+            "score": "6-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -8122,6 +9141,13 @@
         ],
         "hdbid": "6246",
         "qhid": "3652",
+        "birthplace": "Harjavalta, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1979-11-07",
+            "game": "EDM - DET",
+            "score": "3-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -8154,6 +9180,13 @@
         ],
         "hdbid": "51197",
         "qhid": "6712",
+        "birthplace": "Kajaani, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2007-10-31",
+            "game": "TBL - NJD",
+            "score": "1-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -8186,6 +9219,13 @@
         ],
         "hdbid": "69041",
         "qhid": "3717",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-04-18",
+            "game": "PHI - NYI",
+            "score": "4-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -8238,6 +9278,13 @@
         ],
         "hdbid": "15586",
         "qhid": "3722",
+        "birthplace": "Imatra, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2001-11-28",
+            "game": "EDM - ANA",
+            "score": "2-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -8286,6 +9333,13 @@
         ],
         "hdbid": "218697",
         "qhid": "67666",
+        "birthplace": "Espoo, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2023-10-28",
+            "game": "OTT - PIT",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -8334,6 +9388,13 @@
         ],
         "hdbid": "3469",
         "qhid": "3785",
+        "birthplace": "Suoniemi, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1980-01-27",
+            "game": "STL - WPG",
+            "score": "6-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -8382,6 +9443,13 @@
         ],
         "hdbid": "3659",
         "qhid": "4009",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1985-10-11",
+            "game": "WPG - CGY",
+            "score": "3-8"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -8414,6 +9482,13 @@
         ],
         "hdbid": "218661",
         "qhid": "77027",
+        "birthplace": "Ylöjärvi, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2023-10-10",
+            "game": "NSH - TBL",
+            "score": "3-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Tampa Bay Lightning",
@@ -8446,6 +9521,13 @@
         ],
         "hdbid": "230540",
         "qhid": "110562",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2023-04-04",
+            "game": "OTT - CAR",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -8510,6 +9592,13 @@
         ],
         "hdbid": "50519",
         "qhid": "4065",
+        "birthplace": "Hämeenlinna, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2003-10-08",
+            "game": "ANA - DAL",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -8578,6 +9667,13 @@
         ],
         "hdbid": "176927",
         "qhid": "24786",
+        "birthplace": "Kiiminki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2020-01-07",
+            "game": "SJS - STL",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "St. Louis Blues",
@@ -8638,6 +9734,13 @@
         ],
         "hdbid": "3882",
         "qhid": "4278",
+        "birthplace": "Savonlinna, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1988-10-06",
+            "game": "STL - MNS",
+            "score": "8-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota North Stars",
@@ -8678,6 +9781,13 @@
         ],
         "hdbid": "118367",
         "qhid": "8902",
+        "birthplace": "Jämsä, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2014-01-18",
+            "game": "MTL - TOR",
+            "score": "3-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -8714,6 +9824,13 @@
         ],
         "hdbid": "187444",
         "qhid": "28939",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-12-01",
+            "game": "PIT - EDM",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -8794,6 +9911,13 @@
         ],
         "hdbid": "94168",
         "qhid": "6894",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-02-27",
+            "game": "PIT - CHI",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -8870,6 +9994,13 @@
         ],
         "hdbid": "19332",
         "qhid": "4352",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-25",
+            "game": "ANA - LAK",
+            "score": "2-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Mighty Ducks",
@@ -8942,6 +10073,13 @@
         ],
         "hdbid": "30378",
         "qhid": "4353",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-01-29",
+            "game": "COL - STL",
+            "score": "0-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
@@ -9070,6 +10208,13 @@
         ],
         "hdbid": "3973",
         "qhid": "4358",
+        "birthplace": "Raahe, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1996-10-05",
+            "game": "FLA - PHI",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Philadelphia Flyers",
@@ -9158,6 +10303,13 @@
         ],
         "hdbid": "49967",
         "qhid": "4359",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2004-02-04",
+            "game": "WSH - PHI",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Philadelphia Flyers",
@@ -9222,6 +10374,13 @@
         ],
         "hdbid": "176929",
         "qhid": "24788",
+        "birthplace": "Haapavesi, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-04-03",
+            "game": "WPG - MTL",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -9262,6 +10421,13 @@
         ],
         "hdbid": "54503",
         "qhid": "6746",
+        "birthplace": "Västerås, Sweden",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2008-10-04",
+            "game": "NYR - TBL",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Tampa Bay Lightning",
@@ -9322,6 +10488,13 @@
         ],
         "hdbid": "70501",
         "qhid": "4371",
+        "birthplace": "Imatra, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2005-10-05",
+            "game": "NYI - BUF",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -9406,6 +10579,13 @@
         ],
         "hdbid": "33995",
         "qhid": "4382",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-05",
+            "game": "CHI - BUF",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -9454,6 +10634,13 @@
         ],
         "hdbid": "40224",
         "qhid": "4383",
+        "birthplace": "Pietarsaari, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-10-14",
+            "game": "CBJ - MIN",
+            "score": "0-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -9494,6 +10681,13 @@
         ],
         "hdbid": "19188",
         "qhid": "4399",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-07",
+            "game": "CHI - CBJ",
+            "score": "5-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -9610,6 +10804,13 @@
         ],
         "hdbid": "4015",
         "qhid": "4400",
+        "birthplace": "Tampere, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1988-10-06",
+            "game": "WPG - VAN",
+            "score": "2-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -9670,6 +10871,13 @@
         ],
         "hdbid": "23708",
         "qhid": "4401",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1996-10-04",
+            "game": "NYI - LAK",
+            "score": "0-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -9718,6 +10926,13 @@
         ],
         "hdbid": "49928",
         "qhid": "4402",
+        "birthplace": "Lahti, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2002-01-30",
+            "game": "TOR - ATL",
+            "score": "6-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Atlanta Thrashers",
@@ -9770,6 +10985,13 @@
         ],
         "hdbid": "169520",
         "qhid": "20196",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2016-10-13",
+            "game": "BOS - CBJ",
+            "score": "6-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -9822,6 +11044,13 @@
         ],
         "hdbid": "4066",
         "qhid": "4439",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1988-12-27",
+            "game": "NYR - NJD",
+            "score": "7-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -9862,6 +11091,13 @@
         ],
         "hdbid": "120919",
         "qhid": "9272",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2014-02-27",
+            "game": "LAK - CGY",
+            "score": "2-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -9898,6 +11134,13 @@
         ],
         "hdbid": "89696",
         "qhid": "6840",
+        "birthplace": "Vaasa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2008-12-10",
+            "game": "BOS - WSH",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Washington Capitals",
@@ -9950,6 +11193,13 @@
         ],
         "hdbid": "122784",
         "qhid": "9277",
+        "birthplace": "Suonenjoki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2014-11-06",
+            "game": "EDM - BOS",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -9986,6 +11236,13 @@
         ],
         "hdbid": "219620",
         "qhid": "79046",
+        "birthplace": "Hämeenlinna, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2022-11-12",
+            "game": "NYR - NSH",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -10018,6 +11275,13 @@
         ],
         "hdbid": "40262",
         "qhid": "4549",
+        "birthplace": "Lohja, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2001-10-04",
+            "game": "ANA - BOS",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Mighty Ducks",
@@ -10078,6 +11342,13 @@
         ],
         "hdbid": "4223",
         "qhid": "4608",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1995-10-12",
+            "game": "BOS - SJS",
+            "score": "6-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -10126,6 +11397,13 @@
         ],
         "hdbid": "112582",
         "qhid": "8937",
+        "birthplace": "Muurame, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-03-16",
+            "game": "MTL - NJD",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -10158,6 +11436,13 @@
         ],
         "hdbid": "62658",
         "qhid": "6808",
+        "birthplace": "Suomussalmi, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2008-11-01",
+            "game": "PIT - STL",
+            "score": "6-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -10194,6 +11479,13 @@
         ],
         "hdbid": "78383",
         "qhid": "8250",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2011-10-13",
+            "game": "EDM - MIN",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -10234,6 +11526,13 @@
         ],
         "hdbid": "43357",
         "qhid": "4651",
+        "birthplace": "Ylöjärvi, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2002-10-12",
+            "game": "WSH - NYI",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -10274,6 +11573,13 @@
         ],
         "hdbid": "50543",
         "qhid": "4675",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2004-01-01",
+            "game": "NJD - WSH",
+            "score": "2-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -10310,6 +11616,13 @@
         ],
         "hdbid": "76156",
         "qhid": "6639",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2007-12-15",
+            "game": "NSH - COL",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -10342,6 +11655,13 @@
         ],
         "hdbid": "56020",
         "qhid": "6952",
+        "birthplace": "Sonkajärvi, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2009-10-05",
+            "game": "NYR - NJD",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -10386,6 +11706,13 @@
         ],
         "hdbid": "22927",
         "qhid": "4681",
+        "birthplace": "Haukipudas, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2002-10-10",
+            "game": "CHI - CBJ",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -10426,6 +11753,13 @@
         ],
         "hdbid": "50504",
         "qhid": "4682",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2003-10-09",
+            "game": "LAK - DET",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -10490,6 +11824,13 @@
         ],
         "hdbid": "56053",
         "qhid": "4688",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2003-10-09",
+            "game": "BUF - PHI",
+            "score": "0-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Philadelphia Flyers",
@@ -10542,6 +11883,13 @@
         ],
         "hdbid": "7478",
         "qhid": "4755",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-10-06",
+            "game": "CLR - VAN",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Rockies",
@@ -10606,6 +11954,13 @@
         ],
         "hdbid": "176931",
         "qhid": "24780",
+        "birthplace": "Älvkarleby, Sweden",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2016-10-12",
+            "game": "CGY - EDM",
+            "score": "4-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -10662,6 +12017,13 @@
         ],
         "hdbid": "118379",
         "qhid": "8931",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2014-03-14",
+            "game": "EDM - DET",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Detroit Red Wings",
@@ -10710,6 +12072,13 @@
         ],
         "hdbid": "217408",
         "qhid": "67667",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2022-03-11",
+            "game": "VGK - PIT",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -10742,6 +12111,13 @@
         ],
         "hdbid": "56055",
         "qhid": "6940",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2009-10-02",
+            "game": "PHI - CAR",
+            "score": "2-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Philadelphia Flyers",
@@ -10774,6 +12150,13 @@
         ],
         "hdbid": "230593",
         "qhid": "110638",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2023-04-13",
+            "game": "PIT - CBJ",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -10846,6 +12229,13 @@
         ],
         "hdbid": "112590",
         "qhid": "9273",
+        "birthplace": "Rauma, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2013-11-19",
+            "game": "CHI - COL",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -10922,6 +12312,13 @@
         ],
         "hdbid": "78558",
         "qhid": "4868",
+        "birthplace": "Asikkala, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-12-02",
+            "game": "TBL - OTT",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Tampa Bay Lightning",
@@ -10970,6 +12367,13 @@
         ],
         "hdbid": "200285",
         "qhid": "58297",
+        "birthplace": "Naantali, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-05-30",
+            "game": "VGK - COL",
+            "score": "1-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
@@ -11034,6 +12438,13 @@
         ],
         "hdbid": "162163",
         "qhid": "13827",
+        "birthplace": "Nousiainen, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-10-08",
+            "game": "MIN - COL",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
@@ -11066,6 +12477,13 @@
         ],
         "hdbid": "118373",
         "qhid": "8923",
+        "birthplace": "Savonlinna, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2013-04-25",
+            "game": "NSH - DET",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -11154,6 +12572,13 @@
         ],
         "hdbid": "84346",
         "qhid": "6739",
+        "birthplace": "Savonlinna, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2007-11-20",
+            "game": "BOS - TOR",
+            "score": "4-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -11190,6 +12615,13 @@
         ],
         "hdbid": "227734",
         "qhid": "58355",
+        "birthplace": "Oulunsalo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2022-12-23",
+            "game": "FLA - NYI",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -11238,6 +12670,13 @@
         ],
         "hdbid": "4462",
         "qhid": "4886",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1979-10-10",
+            "game": "AFM - QUE",
+            "score": "5-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Atlanta Flames",
@@ -11278,6 +12717,13 @@
         ],
         "hdbid": "186150",
         "qhid": "31080",
+        "birthplace": "Äänekoski, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-03-15",
+            "game": "PHI - NYR",
+            "score": "5-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -11322,6 +12768,13 @@
         ],
         "hdbid": "144604",
         "qhid": "12819",
+        "birthplace": "Joensuu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-11",
+            "game": "VGK - PIT",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -11410,6 +12863,13 @@
         ],
         "hdbid": "62662",
         "qhid": "4995",
+        "birthplace": "Kempele, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2005-12-15",
+            "game": "CHI - NSH",
+            "score": "3-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -11442,6 +12902,13 @@
         ],
         "hdbid": "120915",
         "qhid": "13225",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-03-06",
+            "game": "MIN - CAR",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Carolina Hurricanes",
@@ -11514,6 +12981,13 @@
         ],
         "hdbid": "139048",
         "qhid": "12238",
+        "birthplace": "Turku, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2013-10-02",
+            "game": "BUF - DET",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -11570,6 +13044,13 @@
         ],
         "hdbid": "45038",
         "qhid": "5003",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2002-03-02",
+            "game": "STL - EDM",
+            "score": "1-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -11614,6 +13095,13 @@
         ],
         "hdbid": "186152",
         "qhid": "28941",
+        "birthplace": "Oulu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-04-09",
+            "game": "WSH - BUF",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -11674,6 +13162,13 @@
         ],
         "hdbid": "4705",
         "qhid": "5142",
+        "birthplace": "Oulu, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1981-10-06",
+            "game": "DET - NYR",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -11766,6 +13261,13 @@
         ],
         "hdbid": "4715",
         "qhid": "5153",
+        "birthplace": "Lappeenranta, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1986-10-09",
+            "game": "BUF - WPG",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -11858,6 +13360,13 @@
         ],
         "hdbid": "27832",
         "qhid": "5154",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1999-11-20",
+            "game": "VAN - NSH",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Vancouver Canucks",
@@ -11966,6 +13475,13 @@
         ],
         "hdbid": "50514",
         "qhid": "5155",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2003-10-08",
+            "game": "MIN - CHI",
+            "score": "0-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -12022,6 +13538,13 @@
         ],
         "hdbid": "94172",
         "qhid": "9274",
+        "birthplace": "Pori, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2012-03-27",
+            "game": "CAR - TOR",
+            "score": "3-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Toronto Maple Leafs",
@@ -12066,6 +13589,13 @@
         ],
         "hdbid": "164043",
         "qhid": "15028",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2019-04-20",
+            "game": "CAR - WSH",
+            "score": "0-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Carolina Hurricanes",
@@ -12106,6 +13636,13 @@
         ],
         "hdbid": "9643",
         "qhid": "5171",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1984-10-13",
+            "game": "NYR - MNS",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Rangers",
@@ -12154,6 +13691,13 @@
         ],
         "hdbid": "78387",
         "qhid": "6768",
+        "birthplace": "Nokia, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2008-10-10",
+            "game": "NYI - NJD",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New Jersey Devils",
@@ -12206,6 +13750,13 @@
         ],
         "hdbid": "45091",
         "qhid": "5185",
+        "birthplace": "Espoo, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2003-10-30",
+            "game": "CBJ - EDM",
+            "score": "3-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -12250,6 +13801,13 @@
         ],
         "hdbid": "181034",
         "qhid": "27594",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-11-20",
+            "game": "CGY - NYI",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "New York Islanders",
@@ -12338,6 +13896,13 @@
         ],
         "hdbid": "40218",
         "qhid": "5187",
+        "birthplace": "Turku, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1998-10-10",
+            "game": "OTT - COL",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -12406,6 +13971,13 @@
         ],
         "hdbid": "130458",
         "qhid": "12206",
+        "birthplace": "Raahe, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-01-08",
+            "game": "DAL - NSH",
+            "score": "2-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -12442,6 +14014,13 @@
         ],
         "hdbid": "45039",
         "qhid": "5213",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2003-10-09",
+            "game": "CBJ - ATL",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Atlanta Thrashers",
@@ -12514,6 +14093,13 @@
         ],
         "hdbid": "161740",
         "qhid": "20176",
+        "birthplace": "Forssa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2015-11-28",
+            "game": "BUF - NSH",
+            "score": "4-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -12550,6 +14136,13 @@
         ],
         "hdbid": "105889",
         "qhid": "8892",
+        "birthplace": "Toijala, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-01-02",
+            "game": "FLA - MIN",
+            "score": "1-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Florida Panthers",
@@ -12678,6 +14271,13 @@
         ],
         "hdbid": "4863",
         "qhid": "5323",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1992-10-06",
+            "game": "DET - WPG",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -12750,6 +14350,13 @@
         ],
         "hdbid": "8821",
         "qhid": "5338",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1983-10-23",
+            "game": "WPG - BUF",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -12814,6 +14421,13 @@
         ],
         "hdbid": "4954",
         "qhid": "5423",
+        "birthplace": "Mänttä, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1979-10-10",
+            "game": "EDM - CHI",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -12906,6 +14520,13 @@
         ],
         "hdbid": "4980",
         "qhid": "5450",
+        "birthplace": "Valkeakoski, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-10-09",
+            "game": "DET - PHI",
+            "score": "2-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Philadelphia Flyers",
@@ -12974,6 +14595,13 @@
         ],
         "hdbid": "4982",
         "qhid": "5451",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1985-10-10",
+            "game": "MTL - PIT",
+            "score": "5-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
@@ -13054,6 +14682,13 @@
         ],
         "hdbid": "5000",
         "qhid": "5473",
+        "birthplace": "Lappeenranta, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1984-10-28",
+            "game": "WSH - VAN",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Vancouver Canucks",
@@ -13114,6 +14749,13 @@
         ],
         "hdbid": "6574",
         "qhid": "5747",
+        "birthplace": "Parkano, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1981-11-08",
+            "game": "HFD - BUF",
+            "score": "2-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -13166,6 +14808,13 @@
         ],
         "hdbid": "5248",
         "qhid": "5758",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1984-03-27",
+            "game": "EDM - CGY",
+            "score": "9-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -13214,6 +14863,13 @@
         ],
         "hdbid": "186114",
         "qhid": "31074",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-03",
+            "game": "ANA - SJS",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -13270,6 +14926,13 @@
         ],
         "hdbid": "5294",
         "qhid": "5819",
+        "birthplace": "Uusikaupunki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1986-03-08",
+            "game": "WPG - MNS",
+            "score": "4-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota North Stars",
@@ -13310,6 +14973,13 @@
         ],
         "hdbid": "84353",
         "qhid": "8800",
+        "birthplace": "Rauma, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2012-01-08",
+            "game": "CBJ - ANA",
+            "score": "4-7"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Ducks",
@@ -13382,6 +15052,13 @@
         ],
         "hdbid": "144613",
         "qhid": "12188",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2014-03-25",
+            "game": "DAL - CHI",
+            "score": "2-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -13426,6 +15103,13 @@
         ],
         "hdbid": "216664",
         "qhid": "58479",
+        "birthplace": "Tampere, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2021-11-11",
+            "game": "LAK - OTT",
+            "score": "2-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -13534,6 +15218,13 @@
         ],
         "hdbid": "5400",
         "qhid": "5922",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1985-05-23",
+            "game": "EDM - PHI",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -13630,6 +15321,13 @@
         ],
         "hdbid": "56819",
         "qhid": "5927",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2006-11-20",
+            "game": "PIT - PHI",
+            "score": "5-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Philadelphia Flyers",
@@ -13722,6 +15420,13 @@
         ],
         "hdbid": "5406",
         "qhid": "5928",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1998-12-16",
+            "game": "NSH - ANA",
+            "score": "1-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -13778,6 +15483,13 @@
         ],
         "hdbid": "62643",
         "qhid": "5943",
+        "birthplace": "Kalvola, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2005-10-08",
+            "game": "BOS - PIT",
+            "score": "7-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -13842,6 +15554,13 @@
         ],
         "hdbid": "187581",
         "qhid": "38279",
+        "birthplace": "Vihti, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-03-31",
+            "game": "BUF - NSH",
+            "score": "7-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Nashville Predators",
@@ -13882,6 +15601,13 @@
         ],
         "hdbid": "5436",
         "qhid": "5961",
+        "birthplace": "Rauma, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1988-11-03",
+            "game": "MNS - CHI",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -13914,6 +15640,13 @@
         ],
         "hdbid": "18944",
         "qhid": "5962",
+        "birthplace": "Espoo, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1995-10-07",
+            "game": "BUF - OTT",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Ottawa Senators",
@@ -13978,6 +15711,13 @@
         ],
         "hdbid": "16595",
         "qhid": "5964",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2001-11-24",
+            "game": "SJS - LAK",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "San Jose Sharks",
@@ -14030,6 +15770,13 @@
         ],
         "hdbid": "76155",
         "qhid": "6012",
+        "birthplace": "Hyvinkää, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2007-02-22",
+            "game": "VAN - LAK",
+            "score": "3-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Los Angeles Kings",
@@ -14074,6 +15821,13 @@
         ],
         "hdbid": "5492",
         "qhid": "6014",
+        "birthplace": "Kuopio, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1995-04-09",
+            "game": "SJS - EDM",
+            "score": "5-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Edmonton Oilers",
@@ -14146,6 +15900,13 @@
         ],
         "hdbid": "191102",
         "qhid": "31215",
+        "birthplace": "Joensuu, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-20",
+            "game": "BOS - VAN",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Boston Bruins",
@@ -14218,6 +15979,13 @@
         ],
         "hdbid": "36984",
         "qhid": "6050",
+        "birthplace": "Vantaa, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2000-10-07",
+            "game": "MIN - PHX",
+            "score": "1-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Phoenix Coyotes",
@@ -14290,6 +16058,13 @@
         ],
         "hdbid": "187366",
         "qhid": "28944",
+        "birthplace": "Tampere, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-03",
+            "game": "CGY - VAN",
+            "score": "2-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -14330,6 +16105,13 @@
         ],
         "hdbid": "19180",
         "qhid": "6077",
+        "birthplace": "Varkaus, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1997-12-14",
+            "game": "SJS - CHI",
+            "score": "2-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Chicago Blackhawks",
@@ -14366,6 +16148,13 @@
         ],
         "hdbid": "5548",
         "qhid": "6079",
+        "birthplace": "Tampere, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1993-10-05",
+            "game": "DET - DAL",
+            "score": "4-6"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Dallas Stars",
@@ -14442,6 +16231,13 @@
         ],
         "hdbid": "120910",
         "qhid": "9314",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2013-02-01",
+            "game": "MIN - ANA",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Ducks",
@@ -14506,6 +16302,13 @@
         ],
         "hdbid": "181036",
         "qhid": "25141",
+        "birthplace": "Jyväskylä, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2021-03-06",
+            "game": "CBJ - DAL",
+            "score": "0-5"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
@@ -14546,6 +16349,13 @@
         ],
         "hdbid": "192054",
         "qhid": "31202",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2018-10-04",
+            "game": "WPG - STL",
+            "score": "5-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
@@ -14586,6 +16396,13 @@
         ],
         "hdbid": "5577",
         "qhid": "6116",
+        "birthplace": "Lappeenranta, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1993-10-05",
+            "game": "NYI - CGY",
+            "score": "1-2"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Calgary Flames",
@@ -14634,6 +16451,13 @@
         ],
         "hdbid": "5587",
         "qhid": "6121",
+        "birthplace": "Turku, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1982-03-30",
+            "game": "BUF - QUE",
+            "score": "6-4"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Buffalo Sabres",
@@ -14666,6 +16490,13 @@
         ],
         "hdbid": "30687",
         "qhid": "6122",
+        "birthplace": "Hämeenlinna, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2002-03-20",
+            "game": "CBJ - MIN",
+            "score": "3-1"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Minnesota Wild",
@@ -14698,6 +16529,13 @@
         ],
         "hdbid": "81575",
         "qhid": "6643",
+        "birthplace": "Hyvinkää, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "2007-10-17",
+            "game": "NSH - ANA",
+            "score": "1-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Anaheim Ducks",
@@ -14742,6 +16580,13 @@
         ],
         "hdbid": "201047",
         "qhid": "48539",
+        "birthplace": "Scottsdale, Arizona, United States",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2021-05-12",
+            "game": "EDM - MTL",
+            "score": "4-3"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Montreal Canadiens",
@@ -14798,6 +16643,13 @@
         ],
         "hdbid": "5825",
         "qhid": "6409",
+        "birthplace": "Helsinki, Finland",
+        "shoots": "L",
+        "firstGame": {
+            "date": "1997-02-12",
+            "game": "PHX - DAL",
+            "score": "5-0"
+        },
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Phoenix Coyotes",

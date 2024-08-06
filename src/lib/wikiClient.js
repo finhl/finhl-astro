@@ -1,12 +1,6 @@
-import data from './data.json';
 import dataEnriched from './data-enriched.json';
 
 const CURRENT_SEASON = '2023-24';
-
-export function getWikiData() {
-    // Return data as resolved promise
-    return data;
-}
 
 export function getEnrichedData() {
     // return dataEnriched;

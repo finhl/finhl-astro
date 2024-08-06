@@ -297,6 +297,10 @@
             {
                 "season": "2022-23",
                 "team": "Colorado Avalanche"
+            },
+            {
+                "season": "2023-24",
+                "team": "Colorado Avalanche"
             }
         ],
         "hdbid": "213316",
@@ -311,19 +315,19 @@
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Colorado Avalanche",
-                "seasons": "2021-23"
+                "seasons": "2021-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Colorado Avalanche",
-                "seasons": "2021-2022"
+                "seasons": "2021-"
             }
         ],
         "numberOfTeams": 1,
-        "numberOfSeasons": 2,
+        "numberOfSeasons": 3,
         "firstSeason": "2021-22",
-        "latestSeason": "2022-23"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Joel Armia",
@@ -2292,6 +2296,10 @@
             {
                 "season": "2021-22",
                 "team": "San Jose Sharks"
+            },
+            {
+                "season": "2023-24",
+                "team": "New Jersey Devils"
             }
         ],
         "hdbid": "225177",
@@ -2307,18 +2315,26 @@
             {
                 "team": "San Jose Sharks",
                 "seasons": "2021-22"
+            },
+            {
+                "team": "New Jersey Devils",
+                "seasons": "2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "San Jose Sharks",
                 "seasons": "2021"
+            },
+            {
+                "team": "New Jersey Devils",
+                "seasons": "2023-"
             }
         ],
-        "numberOfTeams": 1,
-        "numberOfSeasons": 1,
+        "numberOfTeams": 2,
+        "numberOfSeasons": 2,
         "firstSeason": "2021-22",
-        "latestSeason": "2021-22"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Erik Haula",
@@ -2513,10 +2529,6 @@
             {
                 "season": "2022-23",
                 "team": "Winnipeg Jets"
-            },
-            {
-                "season": "2023-24",
-                "team": "Winnipeg Jets"
             }
         ],
         "hdbid": "217206",
@@ -2531,19 +2543,19 @@
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Winnipeg Jets",
-                "seasons": "2019-24"
+                "seasons": "2019-23"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Winnipeg Jets",
-                "seasons": "2019-"
+                "seasons": "2019-2022"
             }
         ],
         "numberOfTeams": 1,
-        "numberOfSeasons": 5,
+        "numberOfSeasons": 4,
         "firstSeason": "2019-20",
-        "latestSeason": "2023-24"
+        "latestSeason": "2022-23"
     },
     {
         "name": "Miro Heiskanen",
@@ -4359,6 +4371,10 @@
             {
                 "season": "2023-24",
                 "team": "San Jose Sharks"
+            },
+            {
+                "season": "2023-24",
+                "team": "New Jersey Devils"
             }
         ],
         "hdbid": "162341",
@@ -4378,6 +4394,10 @@
             {
                 "team": "San Jose Sharks",
                 "seasons": "2021-24"
+            },
+            {
+                "team": "New Jersey Devils",
+                "seasons": "2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -4387,10 +4407,14 @@
             },
             {
                 "team": "San Jose Sharks",
-                "seasons": "2021-"
+                "seasons": "2021-2023"
+            },
+            {
+                "team": "New Jersey Devils",
+                "seasons": "2023-"
             }
         ],
-        "numberOfTeams": 2,
+        "numberOfTeams": 3,
         "numberOfSeasons": 5,
         "firstSeason": "2019-20",
         "latestSeason": "2023-24"
@@ -5284,6 +5308,10 @@
             {
                 "season": "2022-23",
                 "team": "Dallas Stars"
+            },
+            {
+                "season": "2023-24",
+                "team": "Colorado Avalanche"
             }
         ],
         "hdbid": "171624",
@@ -5299,18 +5327,26 @@
             {
                 "team": "Dallas Stars",
                 "seasons": "2019-23"
+            },
+            {
+                "team": "Colorado Avalanche",
+                "seasons": "2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Dallas Stars",
                 "seasons": "2019-2022"
+            },
+            {
+                "team": "Colorado Avalanche",
+                "seasons": "2023-"
             }
         ],
-        "numberOfTeams": 1,
-        "numberOfSeasons": 4,
+        "numberOfTeams": 2,
+        "numberOfSeasons": 5,
         "firstSeason": "2019-20",
-        "latestSeason": "2022-23"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Ville Koistinen",
@@ -5804,6 +5840,10 @@
             {
                 "season": "2022-23",
                 "team": "Boston Bruins"
+            },
+            {
+                "season": "2023-24",
+                "team": "Pittsburgh Penguins"
             }
         ],
         "hdbid": "194130",
@@ -5819,18 +5859,26 @@
             {
                 "team": "Boston Bruins",
                 "seasons": "2022-23"
+            },
+            {
+                "team": "Pittsburgh Penguins",
+                "seasons": "2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Boston Bruins",
                 "seasons": "2022"
+            },
+            {
+                "team": "Pittsburgh Penguins",
+                "seasons": "2023-"
             }
         ],
-        "numberOfTeams": 1,
-        "numberOfSeasons": 1,
+        "numberOfTeams": 2,
+        "numberOfSeasons": 2,
         "firstSeason": "2022-23",
-        "latestSeason": "2022-23"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Lauri Korpikoski",
@@ -6836,6 +6884,45 @@
         "numberOfTeams": 2,
         "numberOfSeasons": 8,
         "firstSeason": "2016-17",
+        "latestSeason": "2023-24"
+    },
+    {
+        "name": "Brad Lambert",
+        "firstName": "Brad",
+        "lastName": "Lambert",
+        "wikiLink": "/wiki/Brad_Lambert",
+        "position": "F",
+        "birthDate": "2003-12-19",
+        "seasonsAndTeams": [
+            {
+                "season": "2023-24",
+                "team": "Winnipeg Jets"
+            }
+        ],
+        "hdbid": "230223",
+        "qhid": "87005",
+        "birthplace": "Lahti, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2024-04-18",
+            "game": "VAN - WPG",
+            "score": "2-4"
+        },
+        "seasonsAndTeamsGrouped": [
+            {
+                "team": "Winnipeg Jets",
+                "seasons": "2023-24"
+            }
+        ],
+        "seasonsAndTeamsGroupedAlt": [
+            {
+                "team": "Winnipeg Jets",
+                "seasons": "2023-"
+            }
+        ],
+        "numberOfTeams": 1,
+        "numberOfSeasons": 1,
+        "firstSeason": "2023-24",
         "latestSeason": "2023-24"
     },
     {
@@ -11916,6 +12003,45 @@
         "latestSeason": "1982-83"
     },
     {
+        "name": "Albert Pudas",
+        "firstName": "Albert",
+        "lastName": "Pudas",
+        "wikiLink": "/wiki/Albert_Pudas",
+        "position": "F",
+        "birthDate": "1899-02-17",
+        "seasonsAndTeams": [
+            {
+                "season": "1926-27",
+                "team": "Toronto Maple Leafs"
+            }
+        ],
+        "hdbid": "22312",
+        "qhid": "4825",
+        "birthplace": "Siikajoki, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "1926-12-30",
+            "game": "BOS - TOR",
+            "score": "1-4"
+        },
+        "seasonsAndTeamsGrouped": [
+            {
+                "team": "Toronto Maple Leafs",
+                "seasons": "1926-27"
+            }
+        ],
+        "seasonsAndTeamsGroupedAlt": [
+            {
+                "team": "Toronto Maple Leafs",
+                "seasons": "1926"
+            }
+        ],
+        "numberOfTeams": 1,
+        "numberOfSeasons": 1,
+        "firstSeason": "1926-27",
+        "latestSeason": "1926-27"
+    },
+    {
         "name": "Jesse Puljujärvi",
         "firstName": "Jesse",
         "lastName": "Puljujärvi",
@@ -11950,6 +12076,10 @@
             {
                 "season": "2022-23",
                 "team": "Carolina Hurricanes"
+            },
+            {
+                "season": "2023-24",
+                "team": "Pittsburgh Penguins"
             }
         ],
         "hdbid": "176931",
@@ -11969,6 +12099,10 @@
             {
                 "team": "Carolina Hurricanes",
                 "seasons": "2022-23"
+            },
+            {
+                "team": "Pittsburgh Penguins",
+                "seasons": "2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
@@ -11979,12 +12113,16 @@
             {
                 "team": "Carolina Hurricanes",
                 "seasons": "2022"
+            },
+            {
+                "team": "Pittsburgh Penguins",
+                "seasons": "2023-"
             }
         ],
-        "numberOfTeams": 2,
-        "numberOfSeasons": 6,
+        "numberOfTeams": 3,
+        "numberOfSeasons": 7,
         "firstSeason": "2016-17",
-        "latestSeason": "2022-23"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Teemu Pulkkinen",
@@ -12068,6 +12206,10 @@
             {
                 "season": "2021-22",
                 "team": "Pittsburgh Penguins"
+            },
+            {
+                "season": "2023-24",
+                "team": "Pittsburgh Penguins"
             }
         ],
         "hdbid": "217408",
@@ -12082,19 +12224,19 @@
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Pittsburgh Penguins",
-                "seasons": "2021-22"
+                "seasons": "2021-22, 2023-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Pittsburgh Penguins",
-                "seasons": "2021"
+                "seasons": "2021, "
             }
         ],
         "numberOfTeams": 1,
-        "numberOfSeasons": 1,
+        "numberOfSeasons": 2,
         "firstSeason": "2021-22",
-        "latestSeason": "2021-22"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Mika Pyörälä",
@@ -12146,6 +12288,10 @@
             {
                 "season": "2022-23",
                 "team": "Columbus Blue Jackets"
+            },
+            {
+                "season": "2023-24",
+                "team": "Columbus Blue Jackets"
             }
         ],
         "hdbid": "230593",
@@ -12160,19 +12306,19 @@
         "seasonsAndTeamsGrouped": [
             {
                 "team": "Columbus Blue Jackets",
-                "seasons": "2022-23"
+                "seasons": "2022-24"
             }
         ],
         "seasonsAndTeamsGroupedAlt": [
             {
                 "team": "Columbus Blue Jackets",
-                "seasons": "2022"
+                "seasons": "2022-"
             }
         ],
         "numberOfTeams": 1,
-        "numberOfSeasons": 1,
+        "numberOfSeasons": 2,
         "firstSeason": "2022-23",
-        "latestSeason": "2022-23"
+        "latestSeason": "2023-24"
     },
     {
         "name": "Antti Raanta",
@@ -12646,6 +12792,45 @@
         "numberOfSeasons": 1,
         "firstSeason": "2022-23",
         "latestSeason": "2022-23"
+    },
+    {
+        "name": "Aku Räty",
+        "firstName": "Aku",
+        "lastName": "Räty",
+        "wikiLink": "/wiki/Aku_R%C3%A4ty_(j%C3%A4%C3%A4kiekkoilija)",
+        "position": "F",
+        "birthDate": "2001-07-05",
+        "seasonsAndTeams": [
+            {
+                "season": "2023-24",
+                "team": "Arizona Coyotes"
+            }
+        ],
+        "hdbid": "225167",
+        "qhid": "92226",
+        "birthplace": "Oulu, Finland",
+        "shoots": "R",
+        "firstGame": {
+            "date": "2024-04-17",
+            "game": "EDM - ARI",
+            "score": "2-5"
+        },
+        "seasonsAndTeamsGrouped": [
+            {
+                "team": "Arizona Coyotes",
+                "seasons": "2023-24"
+            }
+        ],
+        "seasonsAndTeamsGroupedAlt": [
+            {
+                "team": "Arizona Coyotes",
+                "seasons": "2023-"
+            }
+        ],
+        "numberOfTeams": 1,
+        "numberOfSeasons": 1,
+        "firstSeason": "2023-24",
+        "latestSeason": "2023-24"
     },
     {
         "name": "Pekka Rautakallio",
